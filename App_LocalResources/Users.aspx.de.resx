@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource0.HeaderText" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Benutzername</value>
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>BenutzerID</value>
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="CheckBoxFieldResource0.HeaderText" xml:space="preserve">
+    <value>Freigegeben</value>
+  </data>
+  <data name="chkUserAddFlagFriday.Text" xml:space="preserve">
+    <value>Freitag</value>
+  </data>
+  <data name="chkUserAddFlagMonday.Text" xml:space="preserve">
+    <value>Montag</value>
+  </data>
+  <data name="chkUserAddFlagSaturday.Text" xml:space="preserve">
+    <value>Samstag</value>
+  </data>
+  <data name="chkUserAddFlagSunday.Text" xml:space="preserve">
+    <value>Sonntag</value>
+  </data>
+  <data name="chkUserAddFlagSupervisor.Text" xml:space="preserve">
+    <value>Administrator-Zugriff</value>
+  </data>
+  <data name="chkUserAddFlagThursday.Text" xml:space="preserve">
+    <value>Donnerstag</value>
+  </data>
+  <data name="chkUserAddFlagTuesday.Text" xml:space="preserve">
+    <value>Dienstag</value>
+  </data>
+  <data name="chkUserAddFlagWednesday.Text" xml:space="preserve">
+    <value>Mittwoch</value>
+  </data>
+  <data name="chkUserEditFlagFriday.Text" xml:space="preserve">
+    <value>Freitag</value>
+  </data>
+  <data name="chkUserEditFlagMonday.Text" xml:space="preserve">
+    <value>Montag</value>
+  </data>
+  <data name="chkUserEditFlagSaturday.Text" xml:space="preserve">
+    <value>Samstag</value>
+  </data>
+  <data name="chkUserEditFlagSunday.Text" xml:space="preserve">
+    <value>Sonntag</value>
+  </data>
+  <data name="chkUserEditFlagSupervisor.Text" xml:space="preserve">
+    <value>Administrator-Zugriff</value>
+  </data>
+  <data name="chkUserEditFlagThursday.Text" xml:space="preserve">
+    <value>Donnerstag</value>
+  </data>
+  <data name="chkUserEditFlagTuesday.Text" xml:space="preserve">
+    <value>Dienstag</value>
+  </data>
+  <data name="chkUserEditFlagWednesday.Text" xml:space="preserve">
+    <value>Mittwoch</value>
+  </data>
+  <data name="chkUserViewFlagFriday.Text" xml:space="preserve">
+    <value>Freitag</value>
+  </data>
+  <data name="chkUserViewFlagMonday.Text" xml:space="preserve">
+    <value>Montag</value>
+  </data>
+  <data name="chkUserViewFlagSaturday.Text" xml:space="preserve">
+    <value>Samstag</value>
+  </data>
+  <data name="chkUserViewFlagSunday.Text" xml:space="preserve">
+    <value>Sonntag</value>
+  </data>
+  <data name="chkUserViewFlagSupervisor.Text" xml:space="preserve">
+    <value>Administrator-Zugriff</value>
+  </data>
+  <data name="chkUserViewFlagThursday.Text" xml:space="preserve">
+    <value>Donnerstag</value>
+  </data>
+  <data name="chkUserViewFlagTuesday.Text" xml:space="preserve">
+    <value>Dienstag</value>
+  </data>
+  <data name="chkUserViewFlagWednesday.Text" xml:space="preserve">
+    <value>Mittwoch</value>
+  </data>
+  <data name="ListItemResource0.Text" xml:space="preserve">
+    <value>Alle Standorten</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Kein Standort</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Weiblich</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Unbekannt</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Männlich</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>Weiblich</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>Weiblich</value>
+  </data>
+  <data name="LiteralResource0.Text" xml:space="preserve">
+    <value>Keine Benutzer vorhanden.</value>
+  </data>
+  <data name="LiteralResource1.Text" xml:space="preserve">
+    <value>UserID:</value>
+  </data>
+  <data name="LiteralResource10.Text" xml:space="preserve">
+    <value>Sonstiges</value>
+  </data>
+  <data name="LiteralResource11.Text" xml:space="preserve">
+    <value>Einstellungen:</value>
+  </data>
+  <data name="LiteralResource12.Text" xml:space="preserve">
+    <value>Von:</value>
+  </data>
+  <data name="LiteralResource13.Text" xml:space="preserve">
+    <value>Nach:</value>
+  </data>
+  <data name="LiteralResource14.Text" xml:space="preserve">
+    <value>Vertragsbeginn:</value>
+  </data>
+  <data name="LiteralResource15.Text" xml:space="preserve">
+    <value>Vertragsende:</value>
+  </data>
+  <data name="LiteralResource16.Text" xml:space="preserve">
+    <value>MaxPickAllowed:</value>
+  </data>
+  <data name="LiteralResource17.Text" xml:space="preserve">
+    <value>Vorname:</value>
+  </data>
+  <data name="LiteralResource18.Text" xml:space="preserve">
+    <value>Zweiter Name:</value>
+  </data>
+  <data name="LiteralResource19.Text" xml:space="preserve">
+    <value>Nachname:</value>
+  </data>
+  <data name="LiteralResource2.Text" xml:space="preserve">
+    <value>UserPin:</value>
+  </data>
+  <data name="LiteralResource20.Text" xml:space="preserve">
+    <value>Geschlecht</value>
+  </data>
+  <data name="LiteralResource21.Text" xml:space="preserve">
+    <value>Telefon 1:</value>
+  </data>
+  <data name="LiteralResource22.Text" xml:space="preserve">
+    <value>Telefon 2:</value>
+  </data>
+  <data name="LiteralResource23.Text" xml:space="preserve">
+    <value>E-Mail 1:</value>
+  </data>
+  <data name="LiteralResource24.Text" xml:space="preserve">
+    <value>E-Mail 2:</value>
+  </data>
+  <data name="LiteralResource25.Text" xml:space="preserve">
+    <value>Adresse:</value>
+  </data>
+  <data name="LiteralResource26.Text" xml:space="preserve">
+    <value>Postleitzahl</value>
+  </data>
+  <data name="LiteralResource27.Text" xml:space="preserve">
+    <value>Stadt</value>
+  </data>
+  <data name="LiteralResource28.Text" xml:space="preserve">
+    <value>Land / Bundesland</value>
+  </data>
+  <data name="LiteralResource29.Text" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="LiteralResource3.Text" xml:space="preserve">
+    <value>Beschreibung:</value>
+  </data>
+  <data name="LiteralResource30.Text" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="LiteralResource31.Text" xml:space="preserve">
+    <value>UserID:</value>
+  </data>
+  <data name="LiteralResource32.Text" xml:space="preserve">
+    <value>UserPin:</value>
+  </data>
+  <data name="LiteralResource33.Text" xml:space="preserve">
+    <value>Beschreibung:</value>
+  </data>
+  <data name="LiteralResource34.Text" xml:space="preserve">
+    <value>Benutzername:</value>
+  </data>
+  <data name="LiteralResource35.Text" xml:space="preserve">
+    <value>Passwort:</value>
+  </data>
+  <data name="LiteralResource36.Text" xml:space="preserve">
+    <value>Personalkarte:</value>
+  </data>
+  <data name="LiteralResource37.Text" xml:space="preserve">
+    <value>Freigegeben:</value>
+  </data>
+  <data name="LiteralResource38.Text" xml:space="preserve">
+    <value>Gruppen</value>
+  </data>
+  <data name="LiteralResource39.Text" xml:space="preserve">
+    <value>Einschränkungen</value>
+  </data>
+  <data name="LiteralResource4.Text" xml:space="preserve">
+    <value>Benutzername:</value>
+  </data>
+  <data name="LiteralResource40.Text" xml:space="preserve">
+    <value>Sonstiges</value>
+  </data>
+  <data name="LiteralResource41.Text" xml:space="preserve">
+    <value>Einstellungen:</value>
+  </data>
+  <data name="LiteralResource42.Text" xml:space="preserve">
+    <value>Von:</value>
+  </data>
+  <data name="LiteralResource43.Text" xml:space="preserve">
+    <value>Nach:</value>
+  </data>
+  <data name="LiteralResource44.Text" xml:space="preserve">
+    <value>Vertragsbeginn:</value>
+  </data>
+  <data name="LiteralResource45.Text" xml:space="preserve">
+    <value>Vertragsende:</value>
+  </data>
+  <data name="LiteralResource46.Text" xml:space="preserve">
+    <value>MaxPickAllowed:</value>
+  </data>
+  <data name="LiteralResource47.Text" xml:space="preserve">
+    <value>Vorname:</value>
+  </data>
+  <data name="LiteralResource48.Text" xml:space="preserve">
+    <value>Zweiter Name:</value>
+  </data>
+  <data name="LiteralResource49.Text" xml:space="preserve">
+    <value>Nachname:</value>
+  </data>
+  <data name="LiteralResource5.Text" xml:space="preserve">
+    <value>Passwort:</value>
+  </data>
+  <data name="LiteralResource50.Text" xml:space="preserve">
+    <value>Geschlecht</value>
+  </data>
+  <data name="LiteralResource51.Text" xml:space="preserve">
+    <value>Telefon 1:</value>
+  </data>
+  <data name="LiteralResource52.Text" xml:space="preserve">
+    <value>Telefon 2:</value>
+  </data>
+  <data name="LiteralResource53.Text" xml:space="preserve">
+    <value>E-Mail 1:</value>
+  </data>
+  <data name="LiteralResource54.Text" xml:space="preserve">
+    <value>E-Mail 2:</value>
+  </data>
+  <data name="LiteralResource55.Text" xml:space="preserve">
+    <value>Adresse:</value>
+  </data>
+  <data name="LiteralResource56.Text" xml:space="preserve">
+    <value>Postleitzahl</value>
+  </data>
+  <data name="LiteralResource57.Text" xml:space="preserve">
+    <value>Stadt</value>
+  </data>
+  <data name="LiteralResource58.Text" xml:space="preserve">
+    <value>Land / Bundesland</value>
+  </data>
+  <data name="LiteralResource59.Text" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="LiteralResource6.Text" xml:space="preserve">
+    <value>Personalkarte:</value>
+  </data>
+  <data name="LiteralResource60.Text" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="LiteralResource61.Text" xml:space="preserve">
+    <value>UserID:</value>
+  </data>
+  <data name="LiteralResource62.Text" xml:space="preserve">
+    <value>UserPin:</value>
+  </data>
+  <data name="LiteralResource63.Text" xml:space="preserve">
+    <value>Rolle:</value>
+  </data>
+  <data name="LiteralResource64.Text" xml:space="preserve">
+    <value>Beschreibung:</value>
+  </data>
+  <data name="LiteralResource65.Text" xml:space="preserve">
+    <value>Benutzername:</value>
+  </data>
+  <data name="LiteralResource66.Text" xml:space="preserve">
+    <value>Passwort:</value>
+  </data>
+  <data name="LiteralResource67.Text" xml:space="preserve">
+    <value>Standorten</value>
+  </data>
+  <data name="LiteralResource68.Text" xml:space="preserve">
+    <value>Personalkarte:</value>
+  </data>
+  <data name="LiteralResource69.Text" xml:space="preserve">
+    <value>Freigegeben:</value>
+  </data>
+  <data name="LiteralResource7.Text" xml:space="preserve">
+    <value>Freigegeben:</value>
+  </data>
+  <data name="LiteralResource70.Text" xml:space="preserve">
+    <value>Gruppen</value>
+  </data>
+  <data name="LiteralResource71.Text" xml:space="preserve">
+    <value>Einschränkungen</value>
+  </data>
+  <data name="LiteralResource72.Text" xml:space="preserve">
+    <value>Sonstiges</value>
+  </data>
+  <data name="LiteralResource73.Text" xml:space="preserve">
+    <value>Einstellungen:</value>
+  </data>
+  <data name="LiteralResource74.Text" xml:space="preserve">
+    <value>Von:</value>
+  </data>
+  <data name="LiteralResource75.Text" xml:space="preserve">
+    <value>Nach:</value>
+  </data>
+  <data name="LiteralResource76.Text" xml:space="preserve">
+    <value>Vertragsbeginn:</value>
+  </data>
+  <data name="LiteralResource77.Text" xml:space="preserve">
+    <value>Vertragsende:</value>
+  </data>
+  <data name="LiteralResource78.Text" xml:space="preserve">
+    <value>MaxPickAllowed:</value>
+  </data>
+  <data name="LiteralResource79.Text" xml:space="preserve">
+    <value>Vorname:</value>
+  </data>
+  <data name="LiteralResource8.Text" xml:space="preserve">
+    <value>Gruppen</value>
+  </data>
+  <data name="LiteralResource80.Text" xml:space="preserve">
+    <value>Zweiter Name:</value>
+  </data>
+  <data name="LiteralResource81.Text" xml:space="preserve">
+    <value>Nachname:</value>
+  </data>
+  <data name="LiteralResource82.Text" xml:space="preserve">
+    <value>Geschlecht</value>
+  </data>
+  <data name="LiteralResource83.Text" xml:space="preserve">
+    <value>Telefon 1:</value>
+  </data>
+  <data name="LiteralResource84.Text" xml:space="preserve">
+    <value>Telefon 2:</value>
+  </data>
+  <data name="LiteralResource85.Text" xml:space="preserve">
+    <value>E-Mail 1:</value>
+  </data>
+  <data name="LiteralResource86.Text" xml:space="preserve">
+    <value>E-Mail 2:</value>
+  </data>
+  <data name="LiteralResource87.Text" xml:space="preserve">
+    <value>Adresse:</value>
+  </data>
+  <data name="LiteralResource88.Text" xml:space="preserve">
+    <value>Postleitzahl</value>
+  </data>
+  <data name="LiteralResource89.Text" xml:space="preserve">
+    <value>Stadt</value>
+  </data>
+  <data name="LiteralResource9.Text" xml:space="preserve">
+    <value>Einschränkungen</value>
+  </data>
+  <data name="LiteralResource90.Text" xml:space="preserve">
+    <value>Land / Bundesland</value>
+  </data>
+  <data name="LiteralResource91.Text" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="LiteralResource92.Text" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="LiteralResource93.Text" xml:space="preserve">
+    <value>Rolle:</value>
+  </data>
+  <data name="LiteralResource94.Text" xml:space="preserve">
+    <value>Standorten</value>
+  </data>
+  <data name="LiteralResource97.Text" xml:space="preserve">
+    <value>Rolle:</value>
+  </data>
+  <data name="LiteralResource98.Text" xml:space="preserve">
+    <value>Standorten</value>
+  </data>
+  <data name="resDeleteAlert.Text" xml:space="preserve">
+    <value>Möchten Sie diesen Benutzer wirklich löschen?</value>
+  </data>
+  <data name="txtUserAddSwipecardValidator.ErrorMessage" xml:space="preserve">
+    <value>Personalkarte muss eindeutig sein</value>
+  </data>
+  <data name="txtUserAddUserIDValidator.ErrorMessage" xml:space="preserve">
+    <value>User ID muss eindeutig sein</value>
+  </data>
+  <data name="txtUserAddUsernameValidator.ErrorMessage" xml:space="preserve">
+    <value>Benutzername muss eindeutig sein</value>
+  </data>
+  <data name="txtUserAddUserPinValidator.ErrorMessage" xml:space="preserve">
+    <value>PIN Code muss eindeutig sein</value>
+  </data>
+  <data name="txtUserEditSwipecardValidator.ErrorMessage" xml:space="preserve">
+    <value>Personalkarte muss eindeutig sein</value>
+  </data>
+  <data name="txtUserEditUserIDValidator.ErrorMessage" xml:space="preserve">
+    <value>User ID muss eindeutig sein</value>
+  </data>
+  <data name="txtUserEditUsernameValidator.ErrorMessage" xml:space="preserve">
+    <value>Benutzername muss eindeutig sein</value>
+  </data>
+  <data name="txtUserEditUserPinValidator.ErrorMessage" xml:space="preserve">
+    <value>PIN Code muss eindeutig sein</value>
+  </data>
+</root>

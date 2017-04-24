@@ -1,0 +1,172 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="KCWebMgr.Master.cs" Inherits="KCWebManager.KCWebMgr" %>
+
+<%@ Register Src="~/Controls/MenuItem.ascx" TagPrefix="uc1" TagName="MenuItem" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<%@ Register Src="~/Controls/LanguageSelector.ascx" TagPrefix="uc1" TagName="LanguageSelector" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="Resources/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="Resources/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="Resources/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="Resources/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="Resources/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="Resources/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="Resources/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="Resources/favicons/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="Resources/favicons/apple-touch-icon-180x180.png" />
+    <link rel="icon" type="image/png" href="Resources/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="Resources/favicons/android-chrome-192x192.png" sizes="192x192" />
+    <link rel="icon" type="image/png" href="Resources/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="Resources/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="manifest" href="Resources/favicons/manifest.json" />
+    <link rel="shortcut icon" href="Resources/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta name="msapplication-TileImage" content="Resources/favicons/mstile-144x144.png" />
+    <meta name="msapplication-config" content="Resources/favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>CaptureTech - KeyCop Web Manager</title>
+    <link type="text/css" rel="stylesheet" href="~/KCWebManager.css" />
+    <link type="text/css" rel="stylesheet" media="print" href="~/KCWebManager.print.css" />
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/jquery") %>
+        <%: Scripts.Render("~/bundles/modernizr") %>
+        <%: Scripts.Render("~/bundles/kcwm_fixes") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+
+    <script type="text/javascript">
+        var jq = jQuery.noConflict();
+        var PageCulture = 'en-US';
+        jq(document).ready(function () {
+            PageCulture = jq('#ddlLang').val();
+	    jQuery('#menu-button').click(function(){
+		
+		jQuery('#divWrapper').addClass('active');
+		});
+	jQuery('#menu-close').click(function(){
+		
+		jQuery('#divWrapper').removeClass('active');
+		});
+            //BindMenuClickers();
+        });
+
+        // Function to toggle submenu
+        function ToggleSubMenu(menuItem) {
+            var menu = jq(menuItem).next();
+            jq(".divSubMenu").not(menu).hide();
+            menu.toggle();
+            return false;
+        }
+	
+        //function BindMenuClickers() {
+        //    jq(".divMenu > div").each(function (index, menu) {
+        //        //alert('attaching to ' + menu);
+        //        jq(menu).click(function () {
+        //            // get actual link
+        //            jq(menu).find('a').trigger("click");
+        //        });
+        //    })
+        //}
+    </script>
+
+    <link href="Content/themes/base/all.css" type="text/css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server" defaultbutton="btnDefault" autocomplete="off">
+        <asp:Button ID="btnDefault" runat="server" UseSubmitBehavior="false" CssClass="Hidden" />
+
+        <asp:ScriptManager ID="ScriptManager3" runat="server"
+            EnablePartialRendering="true"
+            EnableScriptGlobalization="true"
+            OnAsyncPostBackError="ScriptManager3_AsyncPostBackError">
+        </asp:ScriptManager>
+
+        <div id="divWrapper" class="divWrapper">
+            <div id="divTop" class="divHeader">
+                <!-- header -->
+		<div class="language" style="text-align: right;">
+			<div class="holder">
+                                <uc1:LanguageSelector runat="server" ID="LanguageSelector" />
+                                
+                                <asp:HyperLink ID="lnkUserName" runat="server" Text="" Visible="false" NavigateUrl="~/Login" />
+                        </div>
+		</div>
+                <div id="divTopHeader1">
+                    <a href="#" id="menu-button">Menu Open</a>
+			<div style="width: 100%;">
+                        <div>
+			
+                            <div class="logo">
+                                <asp:Image ID="imgLogo" ImageUrl="~/Resources/LogoCaptureTech.png" runat="server" /></div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+                <div id="divTopHeader2">
+                    KeyCop Web Manager
+                </div>
+            </div>
+
+            <div id="divMenu" class="divMenu">
+                <!-- menu on left-side -->
+		<a href="#" id="menu-close">Menu Close</a>
+                <uc1:MenuItem runat="server" ID="mnuLogin" Text="Login" ImageUrl="~/Resources/Login_48.png" NavigateUrl="~/Login" meta:resourcekey="mnuLogin" />
+                <uc1:MenuItem runat="server" ID="mnuRegMgr" Text="Registrations" ImageUrl="~/Resources/KeyPickup_48.png" NavigateUrl="~/RegistrationManager" UserRole="CanAccessRegistrations" meta:resourcekey="mnuRegMgr" />
+                <uc1:MenuItem runat="server" ID="mnuStatus" Text="Status" ImageUrl="~/Resources/Status_48.png" NavigateUrl="~/Status" meta:resourcekey="mnuStatus" UserRole="CanViewStatus" />
+                <uc1:MenuItem runat="server" ID="mnuUsers" Text="Users" ImageUrl="~/Resources/User_48.png" NavigateUrl="~/Users" UserRole="CanViewUsers" meta:resourcekey="mnuUsers" />
+                <uc1:MenuItem runat="server" ID="mnuGroups" Text="Groups" ImageUrl="~/Resources/Groups_48.png" NavigateUrl="~/Groups" UserRole="CanViewGroups" meta:resourcekey="mnuGroups" />
+                <uc1:MenuItem runat="server" ID="mnuKeyCops" Text="KeyCops" ImageUrl="~/Resources/KeyChain_48.png" NavigateUrl="~/KeyCops" UserRole="CanViewKeyCops" meta:resourcekey="mnuKeyCops" />
+                <uc1:MenuItem runat="server" ID="mnuKeyConductors" Text="KeyConductors" ImageUrl="~/Resources/KCLite_48.png" NavigateUrl="~/KeyConductors" UserRole="CanViewKeyConductors" meta:resourcekey="mnuKeyConductors" />
+                <uc1:MenuItem runat="server" ID="mnuInventory" Text="Inventory" ImageUrl="~/Resources/Inventory_48.png" NavigateUrl="~/Inventory" UserRole="CanExecuteInventory" meta:resourcekey="mnuInventory" />
+                <uc1:MenuItem runat="server" ID="mnuSync" Text="Synchronization" ImageUrl="~/Resources/Refresh_48.png" NavigateUrl="~/Synchronize" UserRole="CanSyncKeyConductors" meta:resourcekey="mnuSync" />
+                <uc1:MenuItem runat="server" ID="mnuReport" Text="Reporting" ImageUrl="~/Resources/Reporting_48.png" NavigateUrl="~/Reporting/CurrentRegistrations" UserRole="CanViewReports" meta:resourcekey="mnuReport" />
+                <uc1:MenuItem runat="server" ID="mnuConfig" Text="Configuration" ImageUrl="~/Resources/Settings_48.png" NavigateUrl="~/ConfigSettings" UserRole="CanEditConfig" meta:resourcekey="mnuConfig" />
+                <uc1:MenuItem runat="server" ID="mnuReservation" Text="Reservation" ImageUrl="~/Resources/Reservation_48.png" NavigateUrl="~/Reservation" UserRole="CanViewReservations" meta:resourcekey="mnuReservation" />
+            </div>
+
+            <div id="divContent" class="divContent">
+
+                <asp:Panel ID="pnlLicenseKeyExpired" runat="server" Visible="false" CssClass="warning">
+                    <asp:Literal ID="LiteralResource1" runat="server" meta:resourcekey="LiteralResource1">Warning: Your LicenseKey has expired. The KeyCop WebManager will continue to work but the service will not update the KeyConductors.</asp:Literal>
+                    <br />
+                    <br />
+                    <asp:Literal ID="LiteralResource2" runat="server" meta:resourcekey="LiteralResource2">Contact <a href="mailto:info@capturetech.com">CaptureTech</a> for renewal options.</asp:Literal>
+                </asp:Panel>
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+                <asp:UpdatePanel ID="updSyncInfo" runat="server">
+                    <ContentTemplate>
+                        <asp:Panel ID="pnlSyncInfo" runat="server" Visible="false" CssClass="info">
+                            <asp:Literal ID="LiteralResource5" runat="server" meta:resourcekey="LiteralResource5">Notice: Settings have been changed. The following KeyConductors must be synchronized before changes take effect:</asp:Literal>
+                            <div style="margin: 20px;">
+                                <asp:BulletedList ID="lstSyncInfo" runat="server"></asp:BulletedList>
+                            </div>
+                            <asp:Literal ID="LiteralResource6" runat="server" meta:resourcekey="LiteralResource6">Go to <a href="Synchronize">Synchronize options</a></asp:Literal>
+                        </asp:Panel>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+
+            </div>
+        </div>
+
+        <div style="display: none; visibility: hidden;">
+            <asp:Literal ID="litDebugInfo" EnableViewState="false" runat="server"></asp:Literal>
+        </div>
+
+    </form>
+</body>
+</html>

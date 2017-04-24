@@ -1,0 +1,806 @@
+﻿@import url("KCWebManager.reset.css");
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #333;
+    margin-top: 2px;
+}
+
+b {
+    font-weight: bold;
+}
+
+li {
+    list-style-type: disc;
+}
+
+p {
+    padding: 10px;
+}
+
+th {
+    padding: 6px;
+}
+
+td {
+    vertical-align: top;
+    padding: 0px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.divWrapper {
+   /* width: 1100px;
+   max-width:1100px;
+   margin:auto;*/
+}
+
+.divWrapperConfig {
+    /* width: 750px; */
+}
+
+.divHeader {
+/*
+    float: left;
+    width: 1070px;
+    background: rgb(30,53,76);*/
+    padding: 0px;
+    background:#f0f2f4;
+    position:fixed;
+    width:100%;
+    margin:auto;
+    top:0;
+    
+    
+    box-shadow:0px 0px 13px #888;
+}
+@media only screen and (min-width: 767px){
+.divHeader{
+	background:red;
+}
+}
+
+    .divHeader #divTopHeader1 {
+        padding-left: 2px;
+        padding-bottom: 2px;
+        /*background: white;*/
+	margin:auto;
+	max-width:1000px;
+    }
+
+    .divHeader #divTopHeader2 {
+        font-weight: bold;
+        padding: 5px 2px;
+	text-align:right;
+margin:auto;
+	max-width:1000px;
+    }
+
+.divContent {
+    /*float: left;
+    width: 840px;*/
+    padding: 5px;
+    max-width:1000px;
+    margin:auto;
+    margin-top:140px;
+    background: #FFFFFF;
+}
+
+.divContentConfig {
+    float: left;
+    background: #FFFFFF;
+    width: 100%;
+    padding: 0px;
+}
+
+/*Header */
+#divTopHeader1 .logo{
+	text-align:right;
+}
+.divHeader .language{
+	background:#3498db;
+	color:#fff;
+	padding:3px 0;
+}
+.divHeader .language .holder{
+	max-width:1000px;
+	margin:auto;
+}
+/* Menu */
+.divMenu {
+    background: #3498db;
+    color:#fff;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    position:absolute;
+    left:-200px;
+    top:0px;
+    z-index:9;
+    height:100%;
+    transition:ease .5s;
+    -moz-transition:ease .5s;
+    -weibkit-transition:ease .5s;
+}
+/* Kristen Work */
+#menu-button{
+	position:absolute;
+	transform:translatey(-50%);
+	-webkit-transform:translatey(-50%);
+	top:50%;
+	height:3px	
+	width:20px;
+	background:#3498db;
+}
+#menu-button:before{
+	content:"";
+	height:3px;
+	width:20px;
+	position:absolute;
+	background:#3498db;
+}
+.active .divMenu{
+	transition:ease .5s;
+	-moz-transition:ease .5s;
+	-weibkit-transition:ease .5s;
+	left:0;
+}
+
+    .divMenu > div {
+        margin: 1px;
+        padding: 5px;
+        vertical-align: top;
+        font-size: medium;
+        height: 50px;
+    }
+
+        .divMenu > div > input[type="image"] {
+            height: 48px;
+            width: 48px;
+            vertical-align: middle; /* this makes menu-item text align correctly */
+        }
+
+        .divMenu > div > a > img {
+            height: 48px;
+            width: 48px;
+            vertical-align: middle; /* this makes menu-item text align correctly */
+        }
+
+        .divMenu > div > a {
+            color: white;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+            .divMenu > div > a:link {
+                text-decoration: none;
+                color: white;
+            }
+
+            .divMenu > div > a:visited {
+                text-decoration: none;
+                color: white;
+            }
+
+            .divMenu > div > a:hover {
+                text-decoration: none;
+                color: white;
+            }
+
+            .divMenu > div > a:active {
+                text-decoration: none;
+                color: white;
+            }
+
+        .divMenu > div:hover {
+            background: #c4cdd4;
+        }
+
+.divMenuSelected {
+    background: #c4cdd4;
+}
+
+.divSubMenu {
+    left: 195px;
+    top: -55px;
+    position: relative;
+    display: none;
+    width: 250px;
+    background-color: #9FACB5;
+    padding: 10px;
+    z-index: 1;
+    xvisibility: hidden; /* this is initial state! */
+}
+
+    .divSubMenu > div {
+        height: 30px;
+        margin: 0px; /* 5px 0px 5px 0px; */
+        padding: 5px 0px 5px 0px;
+    }
+
+        .divSubMenu > div > a {
+            color: white;
+            xpadding-bottom: 10px;
+            xmargin-bottom: 10px;
+        }
+
+        .divSubMenu > div > image {
+            padding: 0px 3px 0px 3px;
+        }
+
+        .divSubMenu > div > a:link {
+            text-decoration: none;
+            color: white;
+        }
+
+        .divSubMenu > div > a:visited {
+            text-decoration: none;
+            color: white;
+        }
+
+        .divSubMenu > div > a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        .divSubMenu > div > a:active {
+            text-decoration: none;
+            color: white;
+        }
+
+        .divSubMenu > div:hover {
+            background: #c4cdd4;
+        }
+
+.modalBackground {
+    z-index: 5 !important;
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.modalPopup {
+    z-index: 6 !important;
+    background-color: white;
+    border: 3px solid gray;
+    padding: 3px;
+    width: 400px;
+    overflow: auto;
+}
+
+    .modalPopup p {
+        padding: 5px;
+    }
+
+.modalPopupWide {
+    width: 740px;
+}
+
+.info, .success, .warning, .error {
+    border: 1px solid;
+    margin: 10px 0;
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('Content/knobs/info.png');
+}
+
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image: url('Content/knobs/valid_green.png');
+}
+
+.warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('Content/knobs/attention.png');
+}
+
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('Content/knobs/cancel.png');
+}
+
+.inlineblock {
+    display: inline-block;
+}
+
+.Hidden {
+    visibility: hidden;
+    display: none;
+}
+
+/* Login box at Login.aspx */
+.Login {
+    width: 100%;
+}
+
+    .Login > tbody > tr > td {
+        padding-left: 200px;
+        text-align: center;
+    }
+
+        .Login > tbody > tr > td > table {
+            width: 60%;
+        }
+
+            .Login > tbody > tr > td > table > tbody > tr:nth-child(2n+1) {
+                background-color: #eaeaea;
+            }
+
+            .Login > tbody > tr > td > table > tbody > tr > td {
+                border: 1px solid #c4cdd4;
+                padding: 10px;
+            }
+
+    .Login tr {
+        width: 100%;
+    }
+
+    .Login td {
+    }
+
+    .Login input:not([type='checkbox']) {
+        width: 100%;
+    }
+
+.EntityControl {
+}
+
+    .EntityControl input[type="image"],
+    .EntityControl img {
+        /* Looks like the KeyCop Manager */
+        border: 1px solid #B8B8B8;
+        padding: 10px;
+        margin: 5px 10px 0px 0px;
+        background-color: #ECECEC;
+    }
+
+.GridConfig {
+    width: 750px !important;
+}
+
+.Grid {
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    width: 850px;
+}
+
+    .Grid td {
+        cursor: pointer;
+        padding: 5px 0px 3px 3px;
+        border: solid 1px #c1c1c1;
+    }
+
+    .Grid tr:hover {
+        background-color: #86afff;
+    }
+
+    .Grid th {
+        padding: 4px 2px;
+        color: #fff;
+        background: #507CD1;
+    }
+
+    .Grid .GridHdr a {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .Grid .GridAlt {
+        background: #fcfcfc;
+    }
+
+
+    .Grid .GridPgr {
+        background: #507CD1;
+    }
+
+        .Grid .GridPgr table {
+            margin: 3px 0;
+        }
+
+        .Grid .GridPgr tr {
+        }
+
+        .Grid .GridPgr td {
+            cursor: default;
+            border-width: 0;
+            padding: 0 6px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+            .Grid .GridPgr td > span {
+                text-decoration: none;
+                background-color: orange;
+                padding: 5px;
+            }
+
+        .Grid .GridPgr a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+.NoPointer td {
+    cursor: auto;
+}
+
+.Selectable {
+}
+
+.SingleRow {
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+    .SingleRow td {
+        padding: 1px;
+    }
+
+        .SingleRow td:first-child {
+            border-right: 1px solid black;
+            width: 40px;
+            font-size: 20px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: lightgray;
+        }
+
+.SingleSlot {
+    width: 50px;
+    height: 90px;
+    margin: 3px;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 5px;
+    border: 5px solid white;
+    position: relative;
+}
+
+    .SingleSlot.GraySlot {
+        border-color: gray;
+    }
+
+    .SingleSlot.GreenSlot {
+        border-color: lime;
+    }
+
+    .SingleSlot.OrangeSlot {
+        border-color: orange;
+    }
+
+    .SingleSlot.RedSlot {
+        border-color: red;
+    }
+
+    .SingleSlot.NoneSlot {
+        border-color: gray;
+    }
+
+    .SingleSlot.DisabledSlot {
+        border-color: gray;
+        overflow: hidden;
+    }
+
+        .SingleSlot.DisabledSlot:before, .SingleSlot.DisabledSlot:after {
+            position: absolute;
+            content: '';
+            background: red;
+            display: block;
+            width: 100%;
+            height: 2px;
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+            /** center the X vertically and horizontally: **/
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        .SingleSlot.DisabledSlot:after {
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+
+.SingleSlotLabel {
+    font-size: 16px;
+    max-width: 50px;
+    display: block;
+    overflow: hidden;
+}
+
+.SingleSlotDesc {
+    font-size: 9px;
+    max-width: 50px;
+    max-height: 73px;
+    display: block;
+    overflow: hidden;
+}
+
+.SingleSlot input[type=checkbox] {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    height: 13px;
+    width: 13px;
+}
+
+.ConfigMenu {
+}
+
+.tblKCAdv {
+    border: 0px dashed gray;
+    width: 100%;
+}
+
+    .tblKCAdv td {
+        text-align: left;
+        vertical-align: top;
+        padding-top: 5px;
+    }
+
+    .tblKCAdv tr td:first-child {
+        width: 25%;
+    }
+
+    .tblKCAdv tr {
+        height: 30px;
+    }
+
+        .tblKCAdv tr:nth-child(odd) {
+        }
+
+        .tblKCAdv tr:nth-child(even) {
+            background-color: #eaeaea;
+        }
+
+.tblRegMgr /* Registration Manager - table */ {
+    width: 580px;
+    margin: 10px;
+}
+
+    .tblRegMgr td {
+        padding: 5px;
+    }
+
+.tblRegMgr_KeyConductor {
+    vertical-align: top;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+
+.tblRegMgr_User {
+    vertical-align: top;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+
+.tblRegMgr input[type=text] {
+    font-size: 20px;
+}
+
+.tblRegMgr select {
+    font-size: 20px;
+}
+
+.tblRegMgr .option_red {
+    background-color: red;
+    color: white;
+}
+
+.tblRegMgr .Status_Unknown {
+    /* This doesnt occur */
+}
+
+.tblRegMgr .Status_AvailableForUser {
+    /* No special markup needed*/
+}
+
+.tblRegMgr .Status_AvailableForUserAndPicked {
+    background-color: yellow;
+    color: black;
+}
+
+.tblRegMgr .Status_UnavailableHere {
+    background-color: lightgray;
+    color: gray;
+    font-style: italic;
+}
+
+.tblRegMgr .Status_PickedByUser {
+}
+
+.tblRegMgr .Status_PickedByUserAndReturned {
+    background-color: yellow;
+    color: black;
+}
+
+.tblRegMgr .Status_PickedByOther {
+    background-color: lightgray;
+    color: gray;
+    font-style: italic;
+}
+
+.tblRegMgr .Status_HandOverAndReturned {
+    background-color: yellow;
+    color: black;
+}
+
+.tblRegMgr .Status_HandOverAndPicked {
+    background-color: yellow;
+    color: black;
+}
+
+.tblRegMgr .Status_UnavailableConstraint {
+    background-color: darkorange;
+    color: white;
+}
+
+.tblRegMgr .Status_Unauthorized {
+    background-color: red;
+    color: white;
+}
+
+.tblRegMgr .Status_AvailableButNotAtBase {
+    /* The KeyCop is available but not at base-keyconductor */
+    background-color: orangered;
+    font-style: italic;
+    color: white;
+}
+
+.tblRegMgr .Status_ReservedByUser {
+    /* The KeyCop is reserved by this user */
+    background-color: lightgreen;
+    font-style: italic;
+    color: black;
+}
+
+.tblRegMgr_Report {
+    width: 580px;
+}
+
+    .tblRegMgr_Report td {
+        font-size: 14px;
+        padding: 2px;
+        padding-bottom: 10px;
+    }
+
+        .tblRegMgr_Report td:first-child {
+            width: 200px;
+            font-weight: bold;
+        }
+
+.tblRegMgr_Signature {
+    /* Hide signature row in web-display */
+    visibility: hidden;
+    display: none;
+}
+
+.AlertLevelWarning td {
+    background-color: orange !important;
+    color: black;
+}
+
+.AlertLevelError td {
+    background-color: red !important;
+    color: white;
+    font-weight: bold;
+}
+
+.unwatermark {
+    color: black;
+    font-style: normal;
+}
+
+.watermark {
+    color: gray;
+    font-style: italic;
+}
+
+.tblParameters {
+    width: 100%;
+    border: 1px solid gray;
+    padding: 3px;
+}
+
+    .tblParameters td {
+        width: 15%;
+        padding: 2px 2px 2px 2px;
+        vertical-align: middle;
+        border-right: 1px solid #c4cdd4;
+    }
+
+        .tblParameters td:last-child {
+            text-align: right;
+            border-right: 0px solid #c4cdd4;
+        }
+
+    .tblParameters input,
+    .tblParameters select {
+        height: 25px;
+        width: 100%;
+    }
+
+        .tblParameters input[type=checkbox] {
+            width: 20px;
+            height: 20px;
+        }
+
+.tblFilter {
+    width: 100%;
+}
+
+    .tblFilter td {
+        vertical-align: top;
+    }
+
+    .tblFilter input[type=text],
+    .tblFilter input[type=submit],
+    .tblFilter select {
+        height: 25px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+.RefreshButton {
+    background-image: url('Content/FamFamFam/arrow_refresh.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #B8B8B8;
+    padding-left: 13px;
+    cursor: pointer;
+}
+
+.InfoButton {
+    background-image: url('Content/FamFamFam/information.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 23px;
+    width: 130px;
+    border: 1px solid #B8B8B8;
+    height: 25px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}

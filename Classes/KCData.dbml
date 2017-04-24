@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="KeyCopWebManager" Class="KCDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=CT-L1188\SQLEXPRESS2014;Initial Catalog=KeyCopWebManager;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="KeyCopWebManagerConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.AlertFilter" Member="AlertFilters">
+    <Type Name="AlertFilter">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Enabled" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="[Order]" Member="Order" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KeyConductorID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KeyCopID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KCEventType" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="TimeFrom" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="TimeTo" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ActiveFlag" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="InactiveUser" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="InactiveKeyCop" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="MailSubject" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="MailTo" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="MailToUser" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="MailTemplate" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="AlertLevel" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="GroupID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ScriptEval" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[User]" Member="Users">
+    <Type Name="User">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="UserPin" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="Flags" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartTime" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="EndTime" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="Enabled" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Gender" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="BeginContract" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndContract" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Phonenumber1" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="Phonenumber2" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="EMail1" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="EMail2" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Postalcode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Language" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Firstname" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Middlename" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Lastname" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="UserImage" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Swipecard" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="MaxPickAllowed" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PasswordChangedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PasswordChangedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LoginErrorOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LoginErrorCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PasswordExpiresOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PincodeExpiresOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="User_Bound_Group_User" Member="Bound_Group_Users" ThisKey="ID" OtherKey="User_ID" Type="Bound_Group_User" />
+      <Association Name="User_Bound_Site_User" Member="Bound_Site_Users" ThisKey="ID" OtherKey="User_ID" Type="Bound_Site_User" />
+      <Association Name="User_Key" Member="Keys" ThisKey="ID" OtherKey="AddedBy" Type="Key" />
+      <Association Name="User_Key1" Member="Keys1" ThisKey="ID" OtherKey="ModifiedBy" Type="Key" />
+      <Association Name="Role_User" Member="Role" ThisKey="RoleID" OtherKey="ID" Type="Role" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AlertSchedule" Member="AlertSchedules">
+    <Type Name="AlertSchedule">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KeyCopID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ReturnDateTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="IsPreWarning" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Bound_Group_User" Member="Bound_Group_Users">
+    <Type Name="Bound_Group_User">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Group_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="User_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="User_Bound_Group_User" Member="User" ThisKey="User_ID" OtherKey="ID" Type="User" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Group_Bound_Group_User" Member="Group" ThisKey="Group_ID" OtherKey="ID" Type="Group" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Bound_KeyChain_Group" Member="Bound_KeyChain_Groups">
+    <Type Name="Bound_KeyChain_Group">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KeyChain_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Group_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Group_Bound_KeyChain_Group" Member="Group" ThisKey="Group_ID" OtherKey="ID" Type="Group" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="KeyChain_Bound_KeyChain_Group" Member="KeyChain" ThisKey="KeyChain_ID" OtherKey="ID" Type="KeyChain" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Bound_KeyConductor_KeyChain" Member="Bound_KeyConductor_KeyChains">
+    <Type Name="Bound_KeyConductor_KeyChain">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KeyConductor_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KeyChain_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Slot" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LiveView_Status" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="LiveView_UserID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LiveView_DateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="KeyChain_Bound_KeyConductor_KeyChain" Member="KeyChain" ThisKey="KeyChain_ID" OtherKey="ID" Type="KeyChain" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="KeyConductor_Bound_KeyConductor_KeyChain" Member="KeyConductor" ThisKey="KeyConductor_ID" OtherKey="ID" Type="KeyConductor" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Bound_Site_User" Member="Bound_Site_Users">
+    <Type Name="Bound_Site_User">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Site_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="User_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="User_Bound_Site_User" Member="User" ThisKey="User_ID" OtherKey="ID" Type="User" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Site_Bound_Site_User" Member="Site" ThisKey="Site_ID" OtherKey="ID" Type="Site" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Event" Member="Events">
+    <Type Name="Event">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DateTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KeyConductorID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KeyCopID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KCEventType" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="LogMessage" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="InternalIndex" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AlertLevel" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Association Name="KCEventType_Event" Member="KCEventType1" ThisKey="KCEventType" OtherKey="KCEventType1" Type="KCEventType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Group]" Member="Groups">
+    <Type Name="Group">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SiteID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Enabled" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Type" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Association Name="Group_Bound_Group_User" Member="Bound_Group_Users" ThisKey="ID" OtherKey="Group_ID" Type="Bound_Group_User" />
+      <Association Name="Group_Bound_KeyChain_Group" Member="Bound_KeyChain_Groups" ThisKey="ID" OtherKey="Group_ID" Type="Bound_KeyChain_Group" />
+      <Association Name="Site_Group" Member="Site" ThisKey="SiteID" OtherKey="ID" Type="Site" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.InventoryResult" Member="InventoryResults">
+    <Type Name="InventoryResult">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="InventorySessionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KeyCopNumber" Type="System.String" DbType="NVarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="KeyCopNumberRFID" Type="System.String" DbType="NVarChar(24) NOT NULL" CanBeNull="false" />
+      <Column Name="KeyCopDescription" Type="System.String" DbType="NVarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="ExpectedStatus" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FoundStatus" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Remarks" Type="System.String" DbType="NVarChar(1024)" CanBeNull="true" />
+      <Association Name="InventorySession_InventoryResult" Member="InventorySession" ThisKey="InventorySessionID" OtherKey="ID" Type="InventorySession" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.InventorySession" Member="InventorySessions">
+    <Type Name="InventorySession">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="KeyConductorID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KeyConductorName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="StartTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="EndTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Remarks" Type="System.String" DbType="NVarChar(1024)" CanBeNull="true" />
+      <Association Name="InventorySession_InventoryResult" Member="InventoryResults" ThisKey="ID" OtherKey="InventorySessionID" Type="InventoryResult" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KCEventType" Member="KCEventTypes">
+    <Type Name="KCEventType">
+      <Column Name="KCEventType" Member="KCEventType1" Type="System.Byte" DbType="TinyInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Association Name="KCEventType_Event" Member="Events" ThisKey="KCEventType1" OtherKey="KCEventType" Type="Event" />
+      <Association Name="KCEventType_Registration" Member="Registrations" ThisKey="KCEventType1" OtherKey="KCEventType" Type="Registration" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Key]" Member="Keys">
+    <Type Name="Key">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KeyChain_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KeyType_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KeyMft_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SerialNr" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Image" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="AddedBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="User_Key" Member="User" ThisKey="AddedBy" OtherKey="ID" Type="User" IsForeignKey="true" />
+      <Association Name="User_Key1" Member="User1" ThisKey="ModifiedBy" OtherKey="ID" Type="User" IsForeignKey="true" />
+      <Association Name="KeyChain_Key" Member="KeyChain" ThisKey="KeyChain_ID" OtherKey="ID" Type="KeyChain" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="KeyMft_Key" Member="KeyMft" ThisKey="KeyMft_ID" OtherKey="ID" Type="KeyMft" IsForeignKey="true" />
+      <Association Name="KeyType_Key" Member="KeyType" ThisKey="KeyType_ID" OtherKey="ID" Type="KeyType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KeyChain" Member="KeyChains">
+    <Type Name="KeyChain">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SiteID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KeyNumber" Type="System.String" DbType="NVarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="KeyLabel" Type="System.String" DbType="NVarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="Flag" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="StartTime" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="EndTime" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Updated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Image" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Changelog" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Enabled" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Picked" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PickedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KeyLabelAction" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="MaxLendingTime" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="BaseKeyConductor_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LongLabel" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="LongDescription" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Color" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Association Name="KeyChain_Bound_KeyChain_Group" Member="Bound_KeyChain_Groups" ThisKey="ID" OtherKey="KeyChain_ID" Type="Bound_KeyChain_Group" />
+      <Association Name="KeyChain_Bound_KeyConductor_KeyChain" Member="Bound_KeyConductor_KeyChains" ThisKey="ID" OtherKey="KeyChain_ID" Type="Bound_KeyConductor_KeyChain" />
+      <Association Name="KeyChain_Key" Member="Keys" ThisKey="ID" OtherKey="KeyChain_ID" Type="Key" />
+      <Association Name="Site_KeyChain" Member="Site" ThisKey="SiteID" OtherKey="ID" Type="Site" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KeyConductor" Member="KeyConductors">
+    <Type Name="KeyConductor">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SiteID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Slots" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="InterfaceType" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="LoginMethod" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="TimeoutWarning" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="TimeoutRelease" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="TimeoutLogin" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="BeepKey" Type="System.String" DbType="NChar(2)" CanBeNull="true" />
+      <Column Name="BeepTimeout" Type="System.String" DbType="NChar(4)" CanBeNull="true" />
+      <Column Name="BeepWarning" Type="System.String" DbType="NChar(4)" CanBeNull="true" />
+      <Column Name="DateTimeFormat" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="DateTimeSync" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Location" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Enabled" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="KCID" Type="System.String" DbType="NChar(12)" CanBeNull="true" />
+      <Column Name="Hostname" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Hostport" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DoorEnabled" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="PickOptions" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ReturnOptions" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ShowStandbyScreen" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="KeyCopSorting" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="LoginReader" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="LastLiveView" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NextLiveView" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LastLog" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NextLog" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LastSync" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NextSync" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="KeyConductor_Bound_KeyConductor_KeyChain" Member="Bound_KeyConductor_KeyChains" ThisKey="ID" OtherKey="KeyConductor_ID" Type="Bound_KeyConductor_KeyChain" />
+      <Association Name="Site_KeyConductor" Member="Site" ThisKey="SiteID" OtherKey="ID" Type="Site" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KeyMft" Member="KeyMfts">
+    <Type Name="KeyMft">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="KeyMft_Key" Member="Keys" ThisKey="ID" OtherKey="KeyMft_ID" Type="Key" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KeyType" Member="KeyTypes">
+    <Type Name="KeyType">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="KeyType_Key" Member="Keys" ThisKey="ID" OtherKey="KeyType_ID" Type="Key" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MailQueue" Member="MailQueues">
+    <Type Name="MailQueue">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MailFrom" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="MailTo" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="MailCC" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="MailBCC" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="MailSubject" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="MailBody" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="MailBodyIsHTML" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="MailPriority" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="MailAttachmentName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MailAttachmentMime" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MailAttachmentContent" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Queued" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="QueuedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="SendOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Registration" Member="Registrations">
+    <Type Name="Registration">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DateTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KeyConductorID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KeyCopID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KCEventType" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="LogMessage" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="InternalIndex" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AlertLevel" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Association Name="KCEventType_Registration" Member="KCEventType1" ThisKey="KCEventType" OtherKey="KCEventType1" Type="KCEventType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ReportSchedule" Member="ReportSchedules">
+    <Type Name="ReportSchedule">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Enabled" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ReportView" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MailTo" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="MailSubject" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="ScheduleTime" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="ScheduleDays" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Reservation" Member="Reservations">
+    <Type Name="Reservation">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="User_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KeyChain_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KeyConductor_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StartTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="EndTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Remarks" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Role" Member="Roles">
+    <Type Name="Role">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="IsDefaultRole" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanViewStatus" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanRemoteRelease" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanViewUsers" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanEditUsers" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanViewGroups" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanEditGroups" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanViewKeyCops" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanEditKeyCops" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanViewKeyConductors" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanEditKeyConductors" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanSyncKeyConductors" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanExecuteInventory" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanViewSites" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanEditSites" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanEditSettings" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanEditAlerts" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanEditReports" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanEditRoles" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanViewAllReservations" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanEditAllReservations" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanViewOwnReservations" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanEditOwnReservations" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanDelete" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanViewOwnProfile" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanEditOwnCredentials" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanEditOwnProfile" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanViewReports" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="RoleLevel" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Association Name="Role_User" Member="Users" ThisKey="ID" OtherKey="RoleID" Type="User" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Setting" Member="Settings">
+    <Type Name="Setting">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ValueType" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Site" Member="Sites">
+    <Type Name="Site">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Site_Bound_Site_User" Member="Bound_Site_Users" ThisKey="ID" OtherKey="Site_ID" Type="Bound_Site_User" />
+      <Association Name="Site_Group" Member="Groups" ThisKey="ID" OtherKey="SiteID" Type="Group" />
+      <Association Name="Site_KeyChain" Member="KeyChains" ThisKey="ID" OtherKey="SiteID" Type="KeyChain" />
+      <Association Name="Site_KeyConductor" Member="KeyConductors" ThisKey="ID" OtherKey="SiteID" Type="KeyConductor" />
+    </Type>
+  </Table>
+</Database>

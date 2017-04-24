@@ -1,0 +1,16 @@
+﻿
+.divHeader,
+.divMenu,
+input,
+button {
+    /* Hide all unnecessary components */
+    height: 0px;
+    display: none;
+    visibility: hidden;
+}
+
+.tblRegMgr_Signature {
+    /* Show signature row in print */
+    visibility: visible;
+    display: table-row;
+}

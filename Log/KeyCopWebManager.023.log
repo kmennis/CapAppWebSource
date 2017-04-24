@@ -1,0 +1,373 @@
+20170113 04:27.17|INFO|KCWebManager.Status|Page_Load||
+20170113 04:27.17|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 04:27.19|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170113 04:27.19|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 04:27.19|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 04:27.20|INFO|KCWebManager.Status|First query took 1095||
+20170113 04:27.20|INFO|KCWebManager.Status|Query took: 0||
+20170113 04:27.20|INFO|KCWebManager.Status|Query took: 0||
+20170113 04:27.20|INFO|KCWebManager.Status|Query took: 0||
+20170113 04:27.20|INFO|KCWebManager.Status|Query took: 0||
+20170113 04:27.20|INFO|KCWebManager.Status|Query took: 0||
+20170113 04:27.20|INFO|KCWebManager.Status|All took 1112||
+20170113 04:27.20|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 04:27.20|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 04:27.20|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 04:27.20|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 04:27.20|INFO|KCWebManager.Status|Page_Load completed||
+20170113 10:55.44|INFO|KCWebManager.Status|Page_Load||
+20170113 10:55.44|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 10:55.45|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170113 10:55.45|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 10:55.45|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 10:55.46|INFO|KCWebManager.Status|First query took 402||
+20170113 10:55.46|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:55.46|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:55.46|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:55.46|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:55.46|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:55.46|INFO|KCWebManager.Status|All took 404||
+20170113 10:55.46|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 10:55.46|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 10:55.46|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 10:55.46|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 10:55.46|INFO|KCWebManager.Status|Page_Load completed||
+20170113 10:55.53|INFO|KCWebManager.Status|Page_Load||
+20170113 10:55.53|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 10:55.53|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 10:55.53|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 10:55.54|INFO|KCWebManager.Status|First query took 184||
+20170113 10:55.54|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:55.54|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:55.54|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:55.54|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:55.54|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:55.54|INFO|KCWebManager.Status|All took 199||
+20170113 10:55.54|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 10:55.54|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 10:55.54|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 10:55.54|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 10:55.54|INFO|KCWebManager.Status|Page_Load completed||
+20170113 10:56.02|INFO|KCWebManager.Status|Page_Load||
+20170113 10:56.02|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 10:56.02|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 10:56.03|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 10:56.03|INFO|KCWebManager.Status|First query took 1||
+20170113 10:56.03|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:56.03|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:56.03|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:56.03|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:56.03|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:56.03|INFO|KCWebManager.Status|All took 15||
+20170113 10:56.03|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 10:56.03|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 10:56.03|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 10:56.03|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 10:56.03|INFO|KCWebManager.Status|Page_Load completed||
+20170113 10:56.16|INFO|KCWebManager.Status|Page_Load||
+20170113 10:56.16|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 10:56.16|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 10:56.16|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 10:56.17|INFO|KCWebManager.Status|First query took 21||
+20170113 10:56.17|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:56.17|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:56.17|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:56.17|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:56.17|INFO|KCWebManager.Status|Query took: 0||
+20170113 10:56.17|INFO|KCWebManager.Status|All took 36||
+20170113 10:56.17|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 10:56.17|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 10:56.17|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 10:56.17|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 10:56.17|INFO|KCWebManager.Status|Page_Load completed||
+20170113 11:01.53|INFO|KCWebManager.Status|Page_Load||
+20170113 11:01.53|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 11:01.53|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 11:01.53|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 11:01.53|INFO|KCWebManager.Status|First query took 3||
+20170113 11:01.53|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:01.53|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:01.53|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:01.53|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:01.53|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:01.53|INFO|KCWebManager.Status|All took 17||
+20170113 11:01.53|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 11:01.53|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 11:01.53|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 11:01.53|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 11:01.53|INFO|KCWebManager.Status|Page_Load completed||
+20170113 11:05.03|INFO|KCWebManager.Status|Page_Load||
+20170113 11:05.03|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 11:05.04|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170113 11:05.04|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 11:05.04|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 11:05.04|INFO|KCWebManager.Status|First query took 76||
+20170113 11:05.04|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:05.04|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:05.04|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:05.04|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:05.04|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:05.04|INFO|KCWebManager.Status|All took 94||
+20170113 11:05.04|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 11:05.04|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 11:05.04|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 11:05.04|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 11:05.04|INFO|KCWebManager.Status|Page_Load completed||
+20170113 11:09.43|INFO|KCWebManager.Status|Page_Load||
+20170113 11:09.43|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 11:09.43|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 11:09.44|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 11:09.45|INFO|KCWebManager.Status|First query took 559||
+20170113 11:09.45|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:09.45|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:09.45|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:09.45|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:09.45|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:09.45|INFO|KCWebManager.Status|All took 577||
+20170113 11:09.45|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 11:09.45|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 11:09.45|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 11:09.45|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 11:09.45|INFO|KCWebManager.Status|Page_Load completed||
+20170113 11:09.57|INFO|KCWebManager.Status|Page_Load||
+20170113 11:09.57|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 11:09.57|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 11:09.58|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 11:09.58|INFO|KCWebManager.Status|First query took 14||
+20170113 11:09.58|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:09.58|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:09.58|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:09.58|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:09.58|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:09.58|INFO|KCWebManager.Status|All took 16||
+20170113 11:09.58|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 11:09.58|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 11:09.58|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 11:09.58|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 11:09.58|INFO|KCWebManager.Status|Page_Load completed||
+20170113 11:10.12|INFO|KCWebManager.Status|Page_Load||
+20170113 11:10.12|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 11:10.12|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 11:10.12|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 11:10.12|INFO|KCWebManager.Status|First query took 1||
+20170113 11:10.12|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:10.12|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:10.12|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:10.12|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:10.12|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:10.12|INFO|KCWebManager.Status|All took 15||
+20170113 11:10.12|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 11:10.12|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 11:10.12|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 11:10.12|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 11:10.12|INFO|KCWebManager.Status|Page_Load completed||
+20170113 11:10.19|INFO|KCWebManager.Status|Page_Load||
+20170113 11:10.19|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 11:10.19|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 11:10.19|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 11:10.19|INFO|KCWebManager.Status|First query took 454||
+20170113 11:10.19|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:10.19|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:10.19|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:10.19|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:10.19|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:10.19|INFO|KCWebManager.Status|All took 456||
+20170113 11:10.19|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 11:10.19|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 11:10.19|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 11:10.19|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 11:10.19|INFO|KCWebManager.Status|Page_Load completed||
+20170113 11:10.33|INFO|KCWebManager.Status|Page_Load||
+20170113 11:10.33|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 11:10.33|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 11:10.34|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 11:10.35|INFO|KCWebManager.Status|First query took 583||
+20170113 11:10.35|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:10.35|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:10.35|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:10.35|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:10.35|INFO|KCWebManager.Status|Query took: 0||
+20170113 11:10.35|INFO|KCWebManager.Status|All took 597||
+20170113 11:10.35|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 11:10.35|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 11:10.35|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 11:10.35|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 11:10.35|INFO|KCWebManager.Status|Page_Load completed||
+20170113 13:38.37|INFO|KCWebManager.Status|Page_Load||
+20170113 13:38.37|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 13:38.37|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 13:38.37|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 13:38.37|INFO|KCWebManager.Status|First query took 108||
+20170113 13:38.37|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:38.37|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:38.37|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:38.37|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:38.37|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:38.37|INFO|KCWebManager.Status|All took 110||
+20170113 13:38.37|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 13:38.37|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 13:38.37|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 13:38.37|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 13:38.37|INFO|KCWebManager.Status|Page_Load completed||
+20170113 13:38.38|INFO|KCWebManager.Status|Page_Load||
+20170113 13:38.38|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 13:38.38|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 13:38.38|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 13:38.38|INFO|KCWebManager.Status|First query took 1||
+20170113 13:38.38|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:38.38|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:38.38|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:38.38|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:38.38|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:38.38|INFO|KCWebManager.Status|All took 15||
+20170113 13:38.38|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 13:38.38|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 13:38.38|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 13:38.38|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 13:38.38|INFO|KCWebManager.Status|Page_Load completed||
+20170113 13:38.39|INFO|KCWebManager.Status|Page_Load||
+20170113 13:38.39|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 13:38.39|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 13:38.40|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 13:38.40|INFO|KCWebManager.Status|First query took 19||
+20170113 13:38.40|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:38.40|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:38.40|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:38.40|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:38.40|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:38.40|INFO|KCWebManager.Status|All took 21||
+20170113 13:38.40|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 13:38.40|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 13:38.40|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 13:38.40|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 13:38.40|INFO|KCWebManager.Status|Page_Load completed||
+20170113 13:39.23|INFO|KCWebManager.Status|Page_Load||
+20170113 13:39.23|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 13:39.23|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 13:39.23|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 13:39.23|INFO|KCWebManager.Status|First query took 1||
+20170113 13:39.23|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:39.23|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:39.23|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:39.23|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:39.23|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:39.23|INFO|KCWebManager.Status|All took 3||
+20170113 13:39.23|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 13:39.23|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 13:39.23|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 13:39.23|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 13:39.23|INFO|KCWebManager.Status|Page_Load completed||
+20170113 13:39.26|INFO|KCWebManager.Status|Page_Load||
+20170113 13:39.26|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 13:39.26|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 13:39.26|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 13:39.26|INFO|KCWebManager.Status|First query took 1||
+20170113 13:39.26|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:39.26|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:39.26|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:39.26|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:39.26|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:39.26|INFO|KCWebManager.Status|All took 3||
+20170113 13:39.26|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 13:39.26|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 13:39.26|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 13:39.26|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 13:39.26|INFO|KCWebManager.Status|Page_Load completed||
+20170113 13:39.44|INFO|KCWebManager.Status|Page_Load||
+20170113 13:39.44|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 13:39.44|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 13:39.44|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 13:39.44|INFO|KCWebManager.Status|First query took 50||
+20170113 13:39.44|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:39.44|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:39.44|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:39.44|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:39.44|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:39.44|INFO|KCWebManager.Status|All took 52||
+20170113 13:39.44|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 13:39.44|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 13:39.44|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 13:39.44|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 13:39.44|INFO|KCWebManager.Status|Page_Load completed||
+20170113 13:47.38|INFO|KCWebManager.Status|Page_Load||
+20170113 13:47.38|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 13:47.38|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170113 13:47.38|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 13:47.38|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 13:47.38|INFO|KCWebManager.Status|First query took 24||
+20170113 13:47.38|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:47.38|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:47.38|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:47.38|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:47.38|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:47.38|INFO|KCWebManager.Status|All took 26||
+20170113 13:47.38|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 13:47.38|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 13:47.38|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 13:47.38|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 13:47.38|INFO|KCWebManager.Status|Page_Load completed||
+20170113 13:48.10|INFO|KCWebManager.Status|Page_Load||
+20170113 13:48.10|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 13:48.10|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170113 13:48.10|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 13:48.10|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 13:48.10|INFO|KCWebManager.Status|First query took 21||
+20170113 13:48.10|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.10|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.10|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.10|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.10|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.10|INFO|KCWebManager.Status|All took 36||
+20170113 13:48.10|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 13:48.10|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 13:48.10|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 13:48.10|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 13:48.10|INFO|KCWebManager.Status|Page_Load completed||
+20170113 13:48.16|INFO|KCWebManager.Status|Page_Load||
+20170113 13:48.16|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 13:48.16|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 13:48.16|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 13:48.16|INFO|KCWebManager.Status|First query took 1||
+20170113 13:48.16|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.16|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.16|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.16|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.16|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.16|INFO|KCWebManager.Status|All took 3||
+20170113 13:48.16|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 13:48.16|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 13:48.16|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 13:48.16|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 13:48.16|INFO|KCWebManager.Status|Page_Load completed||
+20170113 13:48.21|INFO|KCWebManager.Status|Page_Load||
+20170113 13:48.21|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 13:48.21|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 13:48.21|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 13:48.21|INFO|KCWebManager.Status|First query took 1||
+20170113 13:48.21|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.21|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.21|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.21|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.21|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.21|INFO|KCWebManager.Status|All took 3||
+20170113 13:48.21|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 13:48.21|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 13:48.21|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 13:48.21|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 13:48.21|INFO|KCWebManager.Status|Page_Load completed||
+20170113 13:48.26|INFO|KCWebManager.Status|Page_Load||
+20170113 13:48.26|INFO|KCWebManager.Status|LoadKeyConductors||
+20170113 13:48.26|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170113 13:48.26|INFO|KCWebManager.Status|GetSlotInfo2||
+20170113 13:48.26|INFO|KCWebManager.Status|First query took 21||
+20170113 13:48.26|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.26|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.26|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.26|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.26|INFO|KCWebManager.Status|Query took: 0||
+20170113 13:48.26|INFO|KCWebManager.Status|All took 23||
+20170113 13:48.26|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170113 13:48.26|INFO|KCWebManager.Status|GetReservationStatus||
+20170113 13:48.26|INFO|KCWebManager.Status|GetReservationStatus done||
+20170113 13:48.26|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170113 13:48.26|INFO|KCWebManager.Status|Page_Load completed||

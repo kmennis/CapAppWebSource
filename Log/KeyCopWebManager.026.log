@@ -1,0 +1,402 @@
+20170417 20:12.50|INFO|KCWebManager.Status|Page_Load||
+20170417 20:12.50|INFO|KCWebManager.Status|Page_Load||
+20170417 20:12.50|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:12.50|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:12.50|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:12.50|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:12.50|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:12.50|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:12.50|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:12.50|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:12.50|INFO|KCWebManager.Status|First query took 67||
+20170417 20:12.50|INFO|KCWebManager.Status|First query took 61||
+20170417 20:12.50|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.50|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.50|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.50|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.50|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.50|INFO|KCWebManager.Status|All took 65||
+20170417 20:12.50|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:12.50|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.50|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:12.50|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:12.51|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.51|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.51|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:12.51|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:12.51|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.51|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.51|INFO|KCWebManager.Status|All took 105||
+20170417 20:12.51|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:12.51|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:12.51|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:12.51|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:12.51|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:12.51|INFO|KCWebManager.Status|Page_Load||
+20170417 20:12.51|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:12.51|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:12.51|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:12.51|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:12.51|INFO|KCWebManager.Status|First query took 102||
+20170417 20:12.51|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.51|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.51|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.51|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.51|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.51|INFO|KCWebManager.Status|All took 104||
+20170417 20:12.51|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:12.51|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:12.51|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:12.51|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:12.51|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:12.54|INFO|KCWebManager.Status|Page_Load||
+20170417 20:12.54|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:12.54|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:12.54|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:12.54|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:12.54|INFO|KCWebManager.Status|First query took 9||
+20170417 20:12.54|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.54|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.54|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.54|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.54|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:12.54|INFO|KCWebManager.Status|All took 11||
+20170417 20:12.54|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:12.54|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:12.54|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:12.54|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:12.54|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:13.37|INFO|KCWebManager.Status|Page_Load||
+20170417 20:13.37|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:13.37|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:13.37|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:13.37|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:13.37|INFO|KCWebManager.Status|First query took 191||
+20170417 20:13.37|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:13.37|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:13.37|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:13.37|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:13.37|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:13.37|INFO|KCWebManager.Status|All took 193||
+20170417 20:13.37|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:13.37|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:13.37|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:13.37|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:13.37|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:18.39|INFO|KCWebManager.Status|Page_Load||
+20170417 20:18.39|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:18.39|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:18.39|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:18.39|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:18.40|INFO|KCWebManager.Status|First query took 201||
+20170417 20:18.40|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:18.40|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:18.40|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:18.40|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:18.40|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:18.40|INFO|KCWebManager.Status|All took 203||
+20170417 20:18.40|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:18.40|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:18.40|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:18.40|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:18.40|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:20.00|INFO|KCWebManager.Status|Page_Load||
+20170417 20:20.00|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:20.00|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:20.00|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:20.01|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:20.01|INFO|KCWebManager.Status|First query took 347||
+20170417 20:20.01|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:20.01|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:20.01|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:20.01|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:20.01|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:20.01|INFO|KCWebManager.Status|All took 350||
+20170417 20:20.01|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:20.01|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:20.01|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:20.01|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:20.01|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:24.36|INFO|KCWebManager.Status|Page_Load||
+20170417 20:24.36|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:24.37|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:24.37|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:24.38|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:24.38|INFO|KCWebManager.Status|First query took 278||
+20170417 20:24.38|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:24.38|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:24.38|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:24.38|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:24.38|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:24.38|INFO|KCWebManager.Status|All took 280||
+20170417 20:24.38|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:24.38|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:24.38|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:24.38|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:24.38|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:26.22|INFO|KCWebManager.Status|Page_Load||
+20170417 20:26.22|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:26.23|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:26.23|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:26.23|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:26.23|INFO|KCWebManager.Status|First query took 80||
+20170417 20:26.23|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:26.23|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:26.23|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:26.23|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:26.23|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:26.23|INFO|KCWebManager.Status|All took 84||
+20170417 20:26.23|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:26.23|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:26.23|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:26.23|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:26.23|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:31.33|INFO|KCWebManager.Status|Page_Load||
+20170417 20:31.33|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:31.33|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:31.33|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:31.33|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:31.33|INFO|KCWebManager.Status|First query took 34||
+20170417 20:31.33|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:31.33|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:31.33|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:31.33|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:31.33|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:31.33|INFO|KCWebManager.Status|All took 36||
+20170417 20:31.33|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:31.33|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:31.33|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:31.33|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:31.33|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:37.07|INFO|KCWebManager.Status|Page_Load||
+20170417 20:37.07|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:37.07|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:37.07|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:37.07|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:37.07|INFO|KCWebManager.Status|First query took 33||
+20170417 20:37.07|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:37.07|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:37.07|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:37.07|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:37.07|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:37.07|INFO|KCWebManager.Status|All took 35||
+20170417 20:37.07|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:37.07|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:37.07|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:37.07|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:37.07|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:42.33|INFO|KCWebManager.Status|Page_Load||
+20170417 20:42.33|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:42.33|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:42.33|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:42.33|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:42.33|INFO|KCWebManager.Status|First query took 89||
+20170417 20:42.33|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:42.33|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:42.33|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:42.33|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:42.33|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:42.33|INFO|KCWebManager.Status|All took 91||
+20170417 20:42.33|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:42.33|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:42.33|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:42.33|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:42.33|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:42.41|INFO|KCWebManager.Status|Page_Load||
+20170417 20:42.41|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:42.41|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:42.41|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:42.41|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:42.41|INFO|KCWebManager.Status|First query took 179||
+20170417 20:42.41|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:42.41|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:42.41|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:42.41|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:42.41|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:42.41|INFO|KCWebManager.Status|All took 182||
+20170417 20:42.41|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:42.41|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:42.41|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:42.41|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:42.41|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:43.33|INFO|KCWebManager.Status|Page_Load||
+20170417 20:43.33|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:43.34|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:43.34|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:43.35|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:43.35|INFO|KCWebManager.Status|First query took 221||
+20170417 20:43.35|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:43.35|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:43.35|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:43.35|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:43.35|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:43.35|INFO|KCWebManager.Status|All took 223||
+20170417 20:43.35|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:43.35|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:43.35|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:43.35|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:43.35|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:45.14|ERROR|KCWebManager.Global|Application error detected!|The ID 'LanguageSelector' is already used by another control.|The ID 'LanguageSelector' is already used by another control. System.Web.HttpParseException HttpParseException System.Web.HttpParseException (0x80004005): The ID 'LanguageSelector' is already used by another control. ---> System.Web.HttpParseException (0x80004005): The ID 'LanguageSelector' is already used by another control. ---> System.Web.HttpException (0x80004005): The ID 'LanguageSelector' is already used by another control.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at Microsoft.AspNet.FriendlyUrls.Abstractions.BuildManagerWrapper.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at Microsoft.AspNet.FriendlyUrls.FriendlyUrlRoute.GetWebObjectFactory(HttpContextBase httpContext, String modifiedVirtualPath)
+   at Microsoft.AspNet.FriendlyUrls.FriendlyUrlRoute.Resolve(HttpContextBase httpContext, IList`1 extensions, String virtualPathOverride, IFriendlyUrlRouteSupportFunctions supportFunctions)
+   at Microsoft.AspNet.FriendlyUrls.FriendlyUrlRoute.GetRouteData(HttpContextBase httpContext, String pathOverride, IFriendlyUrlRouteSupportFunctions supportFunctions)
+   at Microsoft.AspNet.FriendlyUrls.FriendlyUrlRoute.GetRouteData(HttpContextBase httpContext)
+   at System.Web.Routing.RouteCollection.GetRouteData(HttpContextBase httpContext)
+   at System.Web.Routing.UrlRoutingModule.PostResolveRequestCache(HttpContextBase context)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously) Void ProcessException(System.Exception)    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at Microsoft.AspNet.FriendlyUrls.Abstractions.BuildManagerWrapper.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at Microsoft.AspNet.FriendlyUrls.FriendlyUrlRoute.GetWebObjectFactory(HttpContextBase httpContext, String modifiedVirtualPath)
+   at Microsoft.AspNet.FriendlyUrls.FriendlyUrlRoute.Resolve(HttpContextBase httpContext, IList`1 extensions, String virtualPathOverride, IFriendlyUrlRouteSupportFunctions supportFunctions)
+   at Microsoft.AspNet.FriendlyUrls.FriendlyUrlRoute.GetRouteData(HttpContextBase httpContext, String pathOverride, IFriendlyUrlRouteSupportFunctions supportFunctions)
+   at Microsoft.AspNet.FriendlyUrls.FriendlyUrlRoute.GetRouteData(HttpContextBase httpContext)
+   at System.Web.Routing.RouteCollection.GetRouteData(HttpContextBase httpContext)
+   at System.Web.Routing.UrlRoutingModule.PostResolveRequestCache(HttpContextBase context)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+20170417 20:45.59|ERROR|KCWebManager.Global|Application error detected!|The ID 'LanguageSelector' is already used by another control.|The ID 'LanguageSelector' is already used by another control. System.Web.HttpParseException HttpParseException System.Web.HttpParseException (0x80004005): The ID 'LanguageSelector' is already used by another control. ---> System.Web.HttpParseException (0x80004005): The ID 'LanguageSelector' is already used by another control. ---> System.Web.HttpException (0x80004005): The ID 'LanguageSelector' is already used by another control.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously) Void ProcessException(System.Exception)    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   at System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+20170417 20:47.09|INFO|KCWebManager.Status|Page_Load||
+20170417 20:47.09|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:47.10|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:47.10|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:47.10|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:47.10|INFO|KCWebManager.Status|First query took 293||
+20170417 20:47.10|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.10|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.10|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.10|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.10|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.10|INFO|KCWebManager.Status|All took 296||
+20170417 20:47.10|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:47.10|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:47.10|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:47.10|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:47.10|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:47.13|INFO|KCWebManager.Status|Page_Load||
+20170417 20:47.13|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:47.14|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:47.14|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:47.15|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:47.16|INFO|KCWebManager.Status|First query took 480||
+20170417 20:47.16|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.16|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.16|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.16|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.16|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.16|INFO|KCWebManager.Status|All took 482||
+20170417 20:47.16|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:47.16|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:47.16|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:47.16|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:47.16|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:47.19|INFO|KCWebManager.Status|Page_Load||
+20170417 20:47.19|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:47.19|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:47.19|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:47.19|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:47.19|INFO|KCWebManager.Status|First query took 31||
+20170417 20:47.19|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.19|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.19|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.19|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.19|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.19|INFO|KCWebManager.Status|All took 34||
+20170417 20:47.19|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:47.19|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:47.19|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:47.19|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:47.19|INFO|KCWebManager.Status|Page_Load completed||
+20170417 20:47.28|INFO|KCWebManager.Status|Page_Load||
+20170417 20:47.28|INFO|KCWebManager.Status|LoadKeyConductors||
+20170417 20:47.28|INFO|KCWebManager.Status|LoadKeyConductors completed||
+20170417 20:47.28|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor||
+20170417 20:47.28|INFO|KCWebManager.Status|GetSlotInfo2||
+20170417 20:47.28|INFO|KCWebManager.Status|First query took 34||
+20170417 20:47.28|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.28|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.28|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.28|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.28|INFO|KCWebManager.Status|Query took: 0||
+20170417 20:47.28|INFO|KCWebManager.Status|All took 36||
+20170417 20:47.28|INFO|KCWebManager.Status|GetSlotInfo done, result:5||
+20170417 20:47.28|INFO|KCWebManager.Status|GetReservationStatus||
+20170417 20:47.28|INFO|KCWebManager.Status|GetReservationStatus done||
+20170417 20:47.28|INFO|KCWebManager.Status|LoadStatusInfoForSelectedKeyConductor done||
+20170417 20:47.28|INFO|KCWebManager.Status|Page_Load completed||
