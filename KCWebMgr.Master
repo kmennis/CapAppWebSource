@@ -103,7 +103,7 @@
                         </div>
 		</div>
                 <div id="divTopHeader1">
-                    <a href="#" id="menu-button">Menu Open</a>
+                    <a href="#" id="menu-button"><span></span></a>
 			<div style="width: 100%;">
                         <div>
 			

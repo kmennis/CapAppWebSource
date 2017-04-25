@@ -129,7 +129,7 @@ margin:auto;
 .divHeader .language{
 	background:#3498db;
 	color:#fff;
-	padding:3px 0;
+	padding:5px 0;
 }
 .divHeader .language .holder{
 	max-width:1000px;
@@ -157,16 +157,27 @@ margin:auto;
 	transform:translatey(-50%);
 	-webkit-transform:translatey(-50%);
 	top:50%;
-	height:3px	
-	width:20px;
+	height:40px;	
+	width:40px;
+	
+}
+#menu-button:before, #menu-button span, #menu-button::after{
+	content:"";
+	height:6px;
+	width:40px;
+	position:absolute;
 	background:#3498db;
 }
 #menu-button:before{
-	content:"";
-	height:3px;
-	width:20px;
-	position:absolute;
-	background:#3498db;
+	top:0px;
+}
+#menu-bottom span{
+	top:50%;
+	transform:translatey(-50%);
+	-webkit-transform:translatey(-50%);
+}
+#menu-bottom:after{
+	bottom:0;
 }
 .active .divMenu{
 	transition:ease .5s;
