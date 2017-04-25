@@ -157,7 +157,7 @@ margin:auto;
 	transform:translatey(-50%);
 	-webkit-transform:translatey(-50%);
 	top:50%;
-	height:40px;	
+	height:35px;	
 	width:40px;
 	
 }
@@ -171,12 +171,12 @@ margin:auto;
 #menu-button:before{
 	top:0px;
 }
-#menu-bottom span{
+#menu-button span{
 	top:50%;
 	transform:translatey(-50%);
 	-webkit-transform:translatey(-50%);
 }
-#menu-bottom:after{
+#menu-button:after{
 	bottom:0;
 }
 .active .divMenu{
