@@ -822,7 +822,14 @@ margin:auto;
 /* Here we only need to make changes to the 
 	mobile view so we will only target mobile
  */ 
+<<<<<<< HEAD
 @media only screen and (max-width: 767px){
+=======
+
+@media only screen and(max-width: 767px){
+
+
+>>>>>>> ddb1e5051834285b80dd51a26cd36c9514c20fcb
 .users th, .users td{
 	width:100%;
 	display:block;
