@@ -83,7 +83,7 @@
                     selected_tab = jq("#tabs").tabs("option", "active");
                 });
             });
-            jq("#tabs").width(780);
+            jq("#tabs").width('100%');
             jq("#tabs").height(510);
 
             // Keys are displayed using an iframe; resize if available
@@ -321,7 +321,7 @@
                     AutoGenerateColumns="False" DataSourceID="dsKeyCops"
                     PageSize="15" DataKeyNames="ID" OnSelectedIndexChanged="grdKeyCops_SelectedIndexChanged"
                     OnRowDataBound="grdKeyCops_RowDataBound"
-                    CssClass="Grid" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
+                    CssClass="Grid keyCops" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
                     <Columns>
                         <asp:BoundField DataField="KeyLabel" HeaderText="KeyLabel" InsertVisible="false" ReadOnly="true" SortExpression="KeyLabel" meta:resourcekey="BoundFieldResource0" />
                         <asp:BoundField DataField="Description" HeaderText="Description" InsertVisible="false" ReadOnly="true" SortExpression="Description" meta:resourcekey="BoundFieldResource1" />
@@ -341,7 +341,7 @@
             <asp:FormView ID="fvwKeyCop" runat="server"
                 DataKeyNames="ID"
                 DataSourceID="dsSingleKeyCop"
-                Width="624px"
+                Width="100%"
                 OnItemDeleted="fvwKeyCop_ItemDeleted"
                 OnItemUpdating="fvwKeyCop_ItemUpdating"
                 OnItemUpdated="fvwKeyCop_ItemUpdated"

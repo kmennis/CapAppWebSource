@@ -90,8 +90,7 @@ h3 {
 }
 
     .divHeader #divTopHeader1 {
-        padding-left: 2px;
-        padding-bottom: 2px;
+        padding:5px;
         /*background: white;*/
 	margin:auto;
 	max-width:1000px;
@@ -123,6 +122,10 @@ margin:auto;
 }
 
 /*Header */
+#lnkUserName{
+	color:#fff;
+	margin-right:15px;
+}
 #divTopHeader1 .logo{
 	text-align:right;
 }
@@ -143,7 +146,7 @@ margin:auto;
     float: left;
     padding: 5px;
     position:absolute;
-    left:-200px;
+    left:-210px;
     top:0px;
     z-index:9;
     height:100%;
@@ -409,13 +412,13 @@ margin:auto;
 
 .Grid {
     background-color: #fff;
-    margin: 5px 0 10px 0;
-    width: 850px;
+    margin: 10px 0 10px 0;
+    width: 100%;
 }
 
     .Grid td {
         cursor: pointer;
-        padding: 5px 0px 3px 3px;
+        padding: 8px 0px 8px 3px;
         border: solid 1px #c1c1c1;
     }
 
@@ -424,9 +427,9 @@ margin:auto;
     }
 
     .Grid th {
-        padding: 4px 2px;
+        padding: 10px 2px;
         color: #fff;
-        background: #507CD1;
+        background: #3498db;
     }
 
     .Grid .GridHdr a {
@@ -815,3 +818,15 @@ margin:auto;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
+/*Example Of Responsive Tables KEYCOPS page */
+/* Initial Mobile Setup 
+.keyCops th, .keyCops td{
+	width:100%;
+	display:block;
+}
+.keyCops.Grid td{
+	border:none;
+}
+.keyCops tr{
+	border: solid 1px #c1c1c1;
+}*/
