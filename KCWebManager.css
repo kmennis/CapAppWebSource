@@ -818,15 +818,76 @@ margin:auto;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-/*Example Of Responsive Tables KEYCOPS page */
-/* Initial Mobile Setup 
-.keyCops th, .keyCops td{
+/*Example Of Responsive Tables USERS page */
+/* Here we only need to make changes to the 
+	mobile view so we will only target mobile
+ */ 
+@media and screen (min-width: 767px){
+.users th, .users td{
 	width:100%;
 	display:block;
 }
-.keyCops.Grid td{
+.users tr:first-child{
+	display:none;
+}
+.users tr td:nth-child(1):before{
+		content: "Username";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.users tr td:nth-child(1):before{
+		content: "Username";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.users tr td:nth-child(2):before{
+		content: "UserID";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.users tr td:nth-child(3):before{
+		content: "Description";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.users tr td:nth-child(4):before{
+		content: "Role";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.users tr td:nth-child(5):before{
+		content: "Enabled";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.users.Grid td{
 	border:none;
 }
-.keyCops tr{
+.users tr{
 	border: solid 1px #c1c1c1;
-}*/
+}
+}

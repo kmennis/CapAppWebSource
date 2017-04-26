@@ -79,7 +79,7 @@
                     selected_tab = jq("#tabs").tabs("option", "active");
                 });
             });
-            jq("#tabs").width(780);
+            jq("#tabs").width(100%);
             jq("#tabs").height(475);
         }
 
@@ -419,7 +419,7 @@
                     AutoGenerateColumns="False" DataKeyNames="ID" DataSourceID="dsUsers" PageSize="15"
                     OnSelectedIndexChanged="grdUsers_SelectedIndexChanged"
                     OnRowDataBound="grdUsers_RowDataBound"
-                    CssClass="Grid" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
+                    CssClass="Grid users" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
                     <Columns>
                         <asp:CommandField ShowSelectButton="True" Visible="false" />
                         <asp:BoundField DataField="ID" HeaderText="ID" InsertVisible="False" ReadOnly="True" SortExpression="ID" Visible="false" meta:resourcekey="BoundFieldResource0" />
