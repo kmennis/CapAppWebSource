@@ -112,11 +112,11 @@
                             
                         </div>
                     </div>
-
-                </div>
-                <div id="divTopHeader2">
+				<div id="divTopHeader2">
                     KeyCop Web Manager
                 </div>
+                </div>
+               
             </div>
 
             <div id="divMenu" class="divMenu">
