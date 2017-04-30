@@ -211,6 +211,7 @@
     </script>
 
 </asp:Content>
+<h1>Users</h1>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <script type="text/javascript">
@@ -442,7 +443,7 @@
                 DataSourceID="dsSingleUser"
                 OnItemUpdating="fvwUser_ItemUpdating"
                 OnItemUpdated="fvwUser_ItemUpdated"
-                Width="624px"
+                Width="100%"
                 OnItemDeleted="fvwUser_ItemDeleted"
                 OnItemDeleting="fvwUser_ItemDeleting"
                 OnDataBound="fvwUser_DataBound">
