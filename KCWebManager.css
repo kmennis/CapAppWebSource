@@ -155,6 +155,19 @@ margin:auto;
     -weibkit-transition:ease .5s;
 }
 /* Kristen Work */
+
+.divWrapper.active:before{
+	width: 100%;
+	height: 100%;
+	content: "";
+	position: absolute;
+	left: 0;
+	top:0;
+	text-align: ;
+	background: rgba(0,0,0,.7);
+	z-index: 1;
+
+}
 #menu-button{
 	position:absolute;
 	transform:translatey(-50%);
@@ -163,6 +176,21 @@ margin:auto;
 	height:35px;	
 	width:40px;
 	
+}
+#menu-close:before, #menu-close:after{
+	content:"";
+	height:6px;
+	width:40px;
+	position:absolute;
+	background:#fff;
+}
+#menu-close:before{
+	transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+}
+#menu-close:after{
+	transform:rotate(135deg);
+	-webkit-transform:rotate(135deg);
 }
 #menu-button:before, #menu-button span, #menu-button::after{
 	content:"";
@@ -366,20 +394,25 @@ margin:auto;
 }
 
     .Login > tbody > tr > td {
-        padding-left: 200px;
+        
         text-align: center;
     }
 
         .Login > tbody > tr > td > table {
             width: 60%;
+			/*Added by K */
+			margin:auto;
+			max-width:400px;
+			min-width:300px;
+			background:#f0f2f4;
         }
 
             .Login > tbody > tr > td > table > tbody > tr:nth-child(2n+1) {
-                background-color: #eaeaea;
+                /*background-color: #eaeaea;*/
             }
 
             .Login > tbody > tr > td > table > tbody > tr > td {
-                border: 1px solid #c4cdd4;
+                /*border: 1px solid #c4cdd4;*/
                 padding: 10px;
             }
 
@@ -389,9 +422,16 @@ margin:auto;
 
     .Login td {
     }
-
+	.Login #ContentPlaceHolder1_Login1_LoginButton{
+		background:#3498db;
+		border:none;
+		padding:5px;
+		color:white;
+	}
     .Login input:not([type='checkbox']) {
         width: 100%;
+		border:none;
+		padding:5px;
     }
 
 .EntityControl {
