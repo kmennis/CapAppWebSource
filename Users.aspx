@@ -79,7 +79,7 @@
                     selected_tab = jq("#tabs").tabs("option", "active");
                 });
             });
-            jq("#tabs").width(100%);
+            jq("#tabs").css('width','100%');
             jq("#tabs").height(475);
         }
 
