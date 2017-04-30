@@ -73,6 +73,7 @@ h3 {
     float: left;
     width: 1070px;
     background: rgb(30,53,76);*/
+	z-index:1;
     padding: 0px;
     background:#f0f2f4;
     position:fixed;
@@ -142,9 +143,9 @@ margin:auto;
 .divMenu {
     background: #3498db;
     color:#fff;
-    width: 200px;
+    width: 215px;
     float: left;
-    padding: 5px;
+    /*padding: 5px;*/
     position:absolute;
     left:-210px;
     top:0px;
@@ -198,6 +199,8 @@ margin:auto;
 	width:40px;
 	position:absolute;
 	background:#fff;
+	right: 8px;
+	top:50%;
 }
 #menu-close:before{
 	transform:rotate(45deg);
@@ -214,7 +217,7 @@ margin:auto;
 	position:absolute;
 	background:#3498db;
 	right:8px;
-	top:50%;
+	
 	
 }
 #menu-button:before{
@@ -233,6 +236,11 @@ margin:auto;
 	-moz-transition:ease .5s;
 	-weibkit-transition:ease .5s;
 	left:0;
+}
+@media only screen and (max-width: 767px){
+.active .divMenu{
+	overflow-y:scroll;
+}
 }
 
     .divMenu > div {
@@ -289,12 +297,15 @@ margin:auto;
         }
 
 .divMenuSelected {
-    background: #c4cdd4;
+    background: #fff;
+}
+.divMenu.divMenuSelected a:link{
+	color:#3498db;
 }
 
 .divSubMenu {
    /* left: 195px; */
-   left:-6px;
+   left:-7px;
     top: 8px;
     position: relative;
     display: none;
@@ -456,7 +467,8 @@ margin:auto;
 	.Login #ContentPlaceHolder1_Login1_LoginButton{
 		background:#3498db;
 		border:none;
-		padding:5px;
+		padding:8px 24px;
+		font-size:16px;
 		color:white;
 	}
     .Login input:not([type='checkbox']) {
