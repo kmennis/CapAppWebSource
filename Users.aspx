@@ -1,4 +1,4 @@
-﻿<%@ Page Title=""
+﻿<%@ Page Title="Users"
     Language="C#"
     MasterPageFile="~/KCWebMgr.Master"
     AutoEventWireup="true"
@@ -211,7 +211,7 @@
     </script>
 
 </asp:Content>
-<h1>Users</h1>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <script type="text/javascript">
