@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/KCWebMgr.Master" AutoEventWireup="true" CodeBehind="Status.aspx.cs" Inherits="KCWebManager.Status" %>
+﻿
+<%@ Page Title="" Language="C#" MasterPageFile="~/KCWebMgr.Master" AutoEventWireup="true" CodeBehind="Status.aspx.cs" Inherits="KCWebManager.Status" %>
 
 <%@ Register Src="~/Controls/SingleRow.ascx" TagPrefix="uc1" TagName="SingleRow" %>
 
