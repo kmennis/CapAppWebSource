@@ -175,7 +175,7 @@ margin:auto;
 	-webkit-transform:translatey(-50%);
 	top:50%;
 	height:35px;	
-	width:40px;
+	width:50px;
 	
 }
 #menu-close{
@@ -989,7 +989,7 @@ margin:auto;
 	width:100%;
 }
 #tabs.ui-tabs{
-	height:auto;
+	height:auto !important;
 }
 
 }
