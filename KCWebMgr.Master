@@ -122,7 +122,7 @@
 
             <div id="divMenu" class="divMenu">
                 <!-- menu on left-side -->
-		<a href="#" id="menu-close">Menu Close</a>
+		<a href="#" id="menu-close"><span>Close Menu</span></a>
                 <uc1:MenuItem runat="server" ID="mnuLogin" Text="Login" ImageUrl="~/Resources/Login_48.png" NavigateUrl="~/Login" meta:resourcekey="mnuLogin" />
                 <uc1:MenuItem runat="server" ID="mnuRegMgr" Text="Registrations" ImageUrl="~/Resources/KeyPickup_48.png" NavigateUrl="~/RegistrationManager" UserRole="CanAccessRegistrations" meta:resourcekey="mnuRegMgr" />
                 <uc1:MenuItem runat="server" ID="mnuStatus" Text="Status" ImageUrl="~/Resources/Status_48.png" NavigateUrl="~/Status" meta:resourcekey="mnuStatus" UserRole="CanViewStatus" />

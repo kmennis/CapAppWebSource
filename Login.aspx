@@ -64,9 +64,9 @@
                     selected_tab = jq("#tabs").tabs("option", "active");
                 });
             });
-            //jq("#tabs").width(100%);
+            //jq("#tabs").width(780);
             //jq("#tabs").height(475);
-            jq(".tblKCAdv").width(100%);
+            jq(".tblKCAdv").width(780);
         }
 
         function InitializePassField() {

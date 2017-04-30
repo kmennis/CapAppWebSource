@@ -177,6 +177,21 @@ margin:auto;
 	width:40px;
 	
 }
+#menu-close{
+	display:block;
+	height:60px;
+	position:relative;
+}
+
+#menu-close span{
+	position:absolute;
+	top:50%;
+	right:60px;
+	color:#fff;
+	text-decoration:none;
+	}
+
+
 #menu-close:before, #menu-close:after{
 	content:"";
 	height:6px;
@@ -198,6 +213,9 @@ margin:auto;
 	width:40px;
 	position:absolute;
 	background:#3498db;
+	right:8px;
+	top:50%;
+	
 }
 #menu-button:before{
 	top:0px;
@@ -218,11 +236,12 @@ margin:auto;
 }
 
     .divMenu > div {
-        margin: 1px;
-        padding: 5px;
+        /*margin: 1px;*/
+        padding: 7px;
         vertical-align: top;
         font-size: medium;
         height: 50px;
+		border-bottom:1px solid #fff;
     }
 
         .divMenu > div > input[type="image"] {
@@ -242,7 +261,9 @@ margin:auto;
             padding-bottom: 10px;
             margin-bottom: 10px;
         }
-
+			.divMenu > div:hover > a:link{
+				color:#3498db;
+			}
             .divMenu > div > a:link {
                 text-decoration: none;
                 color: white;
@@ -264,7 +285,7 @@ margin:auto;
             }
 
         .divMenu > div:hover {
-            background: #c4cdd4;
+            background: #fff;
         }
 
 .divMenuSelected {
@@ -272,22 +293,30 @@ margin:auto;
 }
 
 .divSubMenu {
-    left: 195px;
-    top: -55px;
+   /* left: 195px; */
+   left:-6px;
+    top: 8px;
     position: relative;
     display: none;
-    width: 250px;
+    width: 215px;
     background-color: #9FACB5;
-    padding: 10px;
+    
     z-index: 1;
     xvisibility: hidden; /* this is initial state! */
 }
 
     .divSubMenu > div {
-        height: 30px;
+       /* height: 30px;*/
         margin: 0px; /* 5px 0px 5px 0px; */
-        padding: 5px 0px 5px 0px;
+        padding: 12px 8px;
     }
+	.divSubMenu  div  img{
+		margin-right:8px;
+	}
+	.divSubMenu  div  img, .divSubMenu div a{
+		display:inline-block;
+		vertical-align:middle;
+	}
 
         .divSubMenu > div > a {
             color: white;
@@ -405,6 +434,7 @@ margin:auto;
 			max-width:400px;
 			min-width:300px;
 			background:#f0f2f4;
+			box-shadow: 1px 2px 14px rgba(0,0,0, .3)
         }
 
             .Login > tbody > tr > td > table > tbody > tr:nth-child(2n+1) {
@@ -414,6 +444,7 @@ margin:auto;
             .Login > tbody > tr > td > table > tbody > tr > td {
                 /*border: 1px solid #c4cdd4;*/
                 padding: 10px;
+				display:inline-block;
             }
 
     .Login tr {
