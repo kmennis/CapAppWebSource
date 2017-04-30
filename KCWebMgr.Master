@@ -48,7 +48,7 @@
         jq(document).ready(function () {
             PageCulture = jq('#ddlLang').val();
 	    jQuery('#menu-button').click(function(){
-		
+			
 		jQuery('#divWrapper').addClass('active');
 		});
 	jQuery('#menu-close').click(function(){
