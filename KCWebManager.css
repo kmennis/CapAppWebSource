@@ -673,8 +673,8 @@ margin:auto;
 
     .tblKCAdv td {
         text-align: left;
-        vertical-align: top;
-        padding-top: 5px;
+        vertical-align: middle;
+        padding:10px;
     }
 
     .tblKCAdv tr td:first-child {
@@ -983,4 +983,13 @@ margin:auto;
 .users tr:nth-child(even){
 	background:#f6f6f6;
 }
+}
+@media only screen and (max-width: 767px){
+.ui-tabs .ui-tabs-nav li{
+	width:100%;
+}
+#tabs.ui-tabs{
+	height:auto;
+}
+
 }
