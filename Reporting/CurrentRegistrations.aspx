@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Current Registrations" Language="C#" MasterPageFile="~/KCWebMgr.Master" AutoEventWireup="true" CodeBehind="CurrentRegistrations.aspx.cs" Inherits="KCWebManager.Reporting.Report_CurrentRegistrations" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/KCWebMgr.Master" AutoEventWireup="true" CodeBehind="CurrentRegistrations.aspx.cs" Inherits="KCWebManager.Reporting.Report_CurrentRegistrations" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
