@@ -984,6 +984,79 @@ margin:auto;
 	background:#f6f6f6;
 }
 }
+
+
+/* Sync Page */
+@media only screen and (max-width: 767px){
+
+.sync th, .sync td{
+	width:100%;
+	display:block;
+}
+.sync tr:first-child{
+	display:none;
+}
+.sync tr td:nth-child(1):before{
+		content: "";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.sync tr td:nth-child(2):before{
+		content: "KCID";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.sync tr td:nth-child(3):before{
+		content: "Name";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.sync tr td:nth-child(4):before{
+		content: "Site";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.sync tr td:nth-child(5):before{
+		content: "Status";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.tblKCAdv.sync td{
+	border:none;
+	position:relative;
+	text-align:right;
+}
+.sync tr{
+	border: solid 1px #c1c1c1;
+	display:block;
+	padding:5px 10px;
+}
+.sync tr:nth-child(even){
+	background:#f6f6f6;
+}
+}
+
+
 @media only screen and (max-width: 767px){
 .ui-tabs .ui-tabs-nav li{
 	width:100%;

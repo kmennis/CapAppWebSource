@@ -47,7 +47,7 @@
                 DataSourceID="dsKeyConductors"
                 OnItemDataBound="rptSync_ItemDataBound">
                 <HeaderTemplate>
-                    <table class="tblKCAdv">
+                    <table class="tblKCAdv sync">
                         <tr style="font-weight: bold;">
                             <td style="width: 25px;">&nbsp;</td>
                             <td>
