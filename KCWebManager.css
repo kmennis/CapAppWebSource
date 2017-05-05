@@ -839,6 +839,8 @@ margin:auto;
     width: 100%;
     border: 1px solid gray;
     padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
     .tblParameters td {
