@@ -1041,7 +1041,7 @@ margin:auto;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
 }
-.tblKCAdv.sync td{
+.sync.tblKCAdv td{
 	border:none;
 	position:relative;
 	text-align:right;
