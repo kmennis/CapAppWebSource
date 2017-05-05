@@ -836,8 +836,8 @@ margin:auto;
 }
 
 .tblParameters {
-    width: 95%;
-    position: absolute;
+    width: 100%;
+    position: relative;
     border: 1px solid gray;
     padding: 3px;
 }
