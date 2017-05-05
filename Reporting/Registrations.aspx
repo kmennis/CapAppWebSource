@@ -167,7 +167,7 @@
                             <td><asp:Literal ID="LiteralResource4" runat="server" meta:resourcekey="LiteralResource4">KeyCops:</asp:Literal>
                             </td>
                             <td>
-                                <asp:Button ID="btnEditKeyCopList" Text="Edit..." runat="server" Width="100%" OnClick="btnEditKeyCopList_Click"/>
+                                <asp:Button ID="btnEditKeyCopList" Text="Edit..." runat="server" OnClick="btnEditKeyCopList_Click"/>
                                 <asp:Button ID="btnEditKeyCopList2" Text="Placeholder" runat="server" CssClass="Hidden" />
                             </td>
                             <td>
