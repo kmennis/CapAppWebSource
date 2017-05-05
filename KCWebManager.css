@@ -1054,7 +1054,7 @@ margin:auto;
         font-weight: bold;
         left: 10px;
         position: absolute;
-        top: 100%;
+        top: 25%;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
 }
