@@ -120,7 +120,7 @@
             <asp:Panel ID="pnlParameters" runat="server">
 
                 <asp:Panel ID="pnlDateRange" runat="server">
-                    <table class="tblParameters">
+                    <table class="tblParameters RegParameters">
                         <tr>
                             <td><asp:Literal ID="LiteralResource0" runat="server" meta:resourcekey="LiteralResource0">Date range:</asp:Literal>
                             </td>
