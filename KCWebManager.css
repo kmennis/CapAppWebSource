@@ -865,6 +865,10 @@ margin:auto;
             width: 20px;
             height: 20px;
         }
+        .tblParameters input[type=submit] {
+            width: 10px;
+            height: 10px;
+        }
 
 .tblFilter {
     width: 100%;
