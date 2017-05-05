@@ -1046,6 +1046,11 @@ margin:auto;
 	position:relative;
 	text-align:right;
 }
+
+    .tblKCAdv tr td:first-child {
+        width: 100%;
+		display: block;
+	}
 .sync tr{
 	border: solid 1px #c1c1c1;
 	display:block;
