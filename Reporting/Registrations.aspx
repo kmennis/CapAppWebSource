@@ -138,8 +138,7 @@
                                 <asp:DropDownList ID="ddlGridPageSize" runat="server"
                                     AutoPostBack="true"
                                     OnSelectedIndexChanged="ddlGridPageSize_SelectedIndexChanged"
-                                    ToolTip="Select the number of records to display" meta:resourcekey="ddlGridPageSize"
-                                    Width="30%">
+                                    ToolTip="Select the number of records to display" meta:resourcekey="ddlGridPageSize">
                                     <asp:ListItem Text="15" Value="15"></asp:ListItem>
                                     <asp:ListItem Text="30" Value="30"></asp:ListItem>
                                     <asp:ListItem Text="50" Value="50"></asp:ListItem>
@@ -159,8 +158,7 @@
                                     DataTextField="Name"
                                     DataValueField="ID"
                                     AppendDataBoundItems="true"
-                                    AutoPostBack="true"
-                                    Width="30%">
+                                    AutoPostBack="true">
                                     <asp:ListItem Value="-1" Text="All" meta:resourcekey="ListItemResource4"/>
                                 </asp:DropDownList>
                             </td>

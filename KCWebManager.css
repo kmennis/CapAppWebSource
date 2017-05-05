@@ -859,7 +859,7 @@ margin:auto;
     .tblParameters input,
     .tblParameters select {
         height: 25px;
-        width: 100%;
+        width: 40%;
     }
 
         .tblParameters input[type=checkbox] {
@@ -868,7 +868,7 @@ margin:auto;
         }
         .tblParameters input[type=submit] {
             width: 40%;
-            height: 40%;
+            height: 50%;
         }
 
 .tblFilter {
