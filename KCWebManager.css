@@ -555,11 +555,11 @@ margin:auto;
             color: #fff;
             text-decoration: underline;
         }
-/*
+
 .NoPointer td {
     cursor: auto;
 }
-*/
+
 .Selectable {
 }
 
@@ -979,14 +979,14 @@ margin:auto;
 /*Start CurrentRegistrations CSS */
 @media only screen and (max-width: 767px){
 
-.NoPointer th, .NoPointer td{
+.cntregs th, .cntregs td{
     width:100%;
     display:block;
 }
-.NoPointer tr:first-child{
+.cntregs tr:first-child{
     display:none;
 }
-.NoPointer tr td:nth-child(1):before{
+.cntregs tr td:nth-child(1):before{
         content: "DateTime";
         font-weight: bold;
         left: 10px;
@@ -995,7 +995,7 @@ margin:auto;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
 }
-.NoPointer tr td:nth-child(2):before{
+.cntregs tr td:nth-child(2):before{
         content: "Event";
         font-weight: bold;
         left: 10px;
@@ -1004,7 +1004,7 @@ margin:auto;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
 }
-.NoPointer tr td:nth-child(3):before{
+.cntregs tr td:nth-child(3):before{
         content: "Username";
         font-weight: bold;
         left: 10px;
@@ -1013,7 +1013,7 @@ margin:auto;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
 }
-.NoPointer tr td:nth-child(4):before{
+.cntregs tr td:nth-child(4):before{
         content: "Key Label";
         font-weight: bold;
         left: 10px;
@@ -1022,7 +1022,7 @@ margin:auto;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
 }
-.NoPointer tr td:nth-child(5):before{
+.cntregs tr td:nth-child(5):before{
         content: "Key Description";
         font-weight: bold;
         left: 10px;
@@ -1031,7 +1031,7 @@ margin:auto;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
 }
-.NoPointer tr td:nth-child(6):before{
+.cntregs tr td:nth-child(6):before{
         content: "KeyConductor";
         font-weight: bold;
         left: 10px;
@@ -1040,7 +1040,7 @@ margin:auto;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
 }
-.NoPointer tr td:nth-child(7):before{
+.cntregs tr td:nth-child(7):before{
         content: "KCID";
         font-weight: bold;
         left: 10px;
@@ -1049,7 +1049,7 @@ margin:auto;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
 }
-.NoPointer tr td:nth-child(8):before{
+.cntregs tr td:nth-child(8):before{
         content: "Log Message";
         font-weight: bold;
         left: 10px;
@@ -1058,17 +1058,17 @@ margin:auto;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
 }
-.NoPointer.Grid td{
+.cntregs.Grid td{
     border:none;
     position:relative;
     text-align:right;
 }
-.NoPointer tr{
+.cntregs tr{
     border: solid 1px #c1c1c1;
     display:block;
     padding:5px 10px;
 }
-.NoPointer tr:nth-child(even){
+.cntregs tr:nth-child(even){
     background:#f6f6f6;
 }
 
