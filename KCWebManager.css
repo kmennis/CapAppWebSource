@@ -1070,24 +1070,6 @@ margin:auto;
 	display:none;
 }
 .groups tr td:nth-child(1):before{
-		content: "";
-        font-weight: bold;
-        left: 10px;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        -webkit-transform: translateY(-50%);
-}
-.groups tr td:nth-child(2):before{
-		content: "KCID";
-        font-weight: bold;
-        left: 10px;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        -webkit-transform: translateY(-50%);
-}
-.groups tr td:nth-child(3):before{
 		content: "Name";
         font-weight: bold;
         left: 10px;
@@ -1096,8 +1078,8 @@ margin:auto;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
 }
-.groups tr td:nth-child(4):before{
-		content: "Site";
+.groups tr td:nth-child(2):before{
+		content: "Description";
         font-weight: bold;
         left: 10px;
         position: absolute;
@@ -1105,8 +1087,8 @@ margin:auto;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
 }
-.groups tr td:nth-child(5):before{
-		content: "Status";
+.groups tr td:nth-child(3):before{
+		content: "Enabled";
         font-weight: bold;
         left: 10px;
         position: absolute;
