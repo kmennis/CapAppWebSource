@@ -837,12 +837,13 @@ margin:auto;
 
 .tblParameters {
     width: 95%;
+    position: absolute;
     border: 1px solid gray;
     padding: 3px;
 }
 
     .tblParameters td {
-        width: 80%;
+        width: 100%;
         display: block;
         padding: 2px 2px 2px 2px;
         vertical-align: middle;
