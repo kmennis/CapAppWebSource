@@ -1054,7 +1054,7 @@ margin:auto;
         font-weight: bold;
         left: 10px;
         position: absolute;
-        height: 50%;
+        height: 100%;
         top: 50%;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
