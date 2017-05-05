@@ -843,7 +843,7 @@ margin:auto;
 
     .tblParameters td {
         width: 80%;
-        /*display: block;*/
+        display: block;
         text-align: center;
         padding: 2px 2px 2px 2px;
         vertical-align: center;
