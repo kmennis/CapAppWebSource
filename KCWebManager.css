@@ -842,7 +842,7 @@ margin:auto;
 }
 
     .tblParameters td {
-        width: 100%;
+        width: 80%;
         display: block;
         text-align: center;
         padding: 2px 2px 2px 2px;
@@ -865,7 +865,7 @@ margin:auto;
             width: 20px;
             height: 20px;
         }
-        
+
 .tblFilter {
     width: 100%;
 }
