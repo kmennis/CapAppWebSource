@@ -138,7 +138,8 @@
                                 <asp:DropDownList ID="ddlGridPageSize" runat="server"
                                     AutoPostBack="true"
                                     OnSelectedIndexChanged="ddlGridPageSize_SelectedIndexChanged"
-                                    ToolTip="Select the number of records to display" meta:resourcekey="ddlGridPageSize">
+                                    ToolTip="Select the number of records to display" meta:resourcekey="ddlGridPageSize"
+                                    Width="20%">
                                     <asp:ListItem Text="15" Value="15"></asp:ListItem>
                                     <asp:ListItem Text="30" Value="30"></asp:ListItem>
                                     <asp:ListItem Text="50" Value="50"></asp:ListItem>
