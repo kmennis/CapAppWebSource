@@ -150,7 +150,7 @@
                 DataSourceID="dsEventLog"
                 PageSize="15"
                 OnRowDataBound="GridView1_RowDataBound"
-                CssClass="Grid NoPointer" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr" Width="873px">
+                CssClass="Grid NoPointer EventLogTable" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
                 <AlternatingRowStyle CssClass="GridAlt"></AlternatingRowStyle>
                 <Columns>
                     <asp:BoundField DataField="DateTime" HeaderText="DateTime" SortExpression="DateTime" meta:resourcekey="BoundFieldResource0" HeaderStyle-Width="150px">
