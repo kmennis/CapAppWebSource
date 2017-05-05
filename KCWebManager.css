@@ -1052,7 +1052,7 @@ margin:auto;
 .cntregs tr td:nth-child(8):before{
         content: "Log Message";
         font-weight: bold;
-        left: 20px;
+        left: 10px;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
