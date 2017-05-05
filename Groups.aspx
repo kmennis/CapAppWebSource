@@ -206,7 +206,7 @@
                     AutoGenerateColumns="False" DataKeyNames="ID" DataSourceID="dsGroups"
                     PageSize="15" OnSelectedIndexChanged="grdGroups_SelectedIndexChanged"
                     OnRowDataBound="grdGroups_RowDataBound"
-                    CssClass="Grid" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
+                    CssClass="Grid groups" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
                     <Columns>
                         <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" meta:resourcekey="BoundFieldResource0" />
                         <asp:BoundField DataField="Description" HeaderText="Description" SortExpression="Description" meta:resourcekey="BoundFieldResource1" />
@@ -227,7 +227,7 @@
                 OnItemUpdated="fvwGroup_ItemUpdated"
                 OnDataBound="fvwGroup_DataBound">
                 <EditItemTemplate>
-                    <table class="tblKCAdv">
+                    <table class="tblKCAdv groups">
                         <tr>
                             <td>
                                 <asp:Literal ID="LiteralResource1" runat="server" meta:resourcekey="LiteralResource1">Name:</asp:Literal></td>
@@ -326,7 +326,7 @@
 
                 </EditItemTemplate>
                 <InsertItemTemplate>
-                    <table class="tblKCAdv">
+                    <table class="tblKCAdv groups">
                         <tr>
                             <td>
                                 <asp:Literal ID="LiteralResource7" runat="server" meta:resourcekey="LiteralResource7">Name:</asp:Literal></td>
@@ -431,7 +431,7 @@
 
                 </InsertItemTemplate>
                 <ItemTemplate>
-                    <table class="tblKCAdv">
+                    <table class="tblKCAdv groups">
                         <tr>
                             <td>
                                 <asp:Literal ID="LiteralResource13" runat="server" meta:resourcekey="LiteralResource13">Name:</asp:Literal></td>
