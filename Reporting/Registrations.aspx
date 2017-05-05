@@ -181,7 +181,7 @@
                             <td><asp:Literal ID="LiteralResource5" runat="server" meta:resourcekey="LiteralResource5">Users:</asp:Literal>
                             </td>
                             <td>
-                                <asp:Button ID="btnEditUserList" Text="Edit..." runat="server" Width="100%" OnClick="btnEditUserList_Click" />
+                                <asp:Button ID="btnEditUserList" Text="Edit..." runat="server" OnClick="btnEditUserList_Click" />
                                 <asp:Button ID="btnEditUserList2" Text="Placeholder" runat="server" CssClass="Hidden" />
                             </td>
                             <td>
