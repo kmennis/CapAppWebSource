@@ -852,7 +852,7 @@ margin:auto;
     }
 
         .tblParameters td:last-child {
-            text-align: right;
+            text-align: center;
             border-right: 0px solid #c4cdd4;
         }
 
