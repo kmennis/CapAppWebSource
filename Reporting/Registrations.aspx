@@ -235,7 +235,7 @@
             <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False"
                 DataSourceID="dsKeyCopRegistrations" PageSize="15"
                 OnRowDataBound="GridView1_RowDataBound"
-                CssClass="Grid NoPointer" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
+                CssClass="Grid NoPointer RegTable" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
 
                 <Columns>
                     <asp:BoundField DataField="DateTime" HeaderText="DateTime" SortExpression="DateTime" meta:resourcekey="BoundFieldResource0" />
