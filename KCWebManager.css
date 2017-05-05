@@ -843,7 +843,7 @@ margin:auto;
 }
 
     .tblParameters td {
-        width: 80%;
+        width: 100%;
         display: block;
         text-align: center;
         padding: 2px 2px 2px 2px;
@@ -865,6 +865,10 @@ margin:auto;
         .tblParameters input[type=checkbox] {
             width: 20px;
             height: 20px;
+        }
+        .tblParameters input[type=submit] {
+            width: 40%;
+            height: 40%;
         }
 
 .tblFilter {
