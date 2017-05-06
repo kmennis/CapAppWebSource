@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/KCWebMgr.Master" AutoEventWireup="true" CodeBehind="Synchronize.aspx.cs" Inherits="KCWebManager.Synchronize" %>
+﻿<%@ Page Title="Synchronize" Language="C#" MasterPageFile="~/KCWebMgr.Master" AutoEventWireup="true" CodeBehind="Synchronize.aspx.cs" Inherits="KCWebManager.Synchronize" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
@@ -14,7 +14,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:UpdatePanel ID="udpScheduler" runat="server">
+    <asp:UpdatePanel ID="udpScheduler" runat="server" CssClass="sync">
         <Triggers>
             <asp:AsyncPostBackTrigger ControlID="Timer1" EventName="Tick" />
         </Triggers>
@@ -47,7 +47,7 @@
                 DataSourceID="dsKeyConductors"
                 OnItemDataBound="rptSync_ItemDataBound">
                 <HeaderTemplate>
-                    <table class="tblKCAdv sync">
+                    <table class="tblKCAdv">
                         <tr style="font-weight: bold;">
                             <td style="width: 25px;">&nbsp;</td>
                             <td>
