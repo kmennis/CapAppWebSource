@@ -14,7 +14,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:UpdatePanel ID="udpScheduler" runat="server" CssClass="sync">
+    <asp:UpdatePanel ID="udpScheduler" runat="server">
         <Triggers>
             <asp:AsyncPostBackTrigger ControlID="Timer1" EventName="Tick" />
         </Triggers>
@@ -47,7 +47,7 @@
                 DataSourceID="dsKeyConductors"
                 OnItemDataBound="rptSync_ItemDataBound">
                 <HeaderTemplate>
-                    <table class="tblKCAdv">
+                    <table class="tblKCAdv sync">
                         <tr style="font-weight: bold;">
                             <td style="width: 25px;">&nbsp;</td>
                             <td>
