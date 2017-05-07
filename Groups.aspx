@@ -1,4 +1,4 @@
-﻿<%@ Page Title=""
+﻿<%@ Page Title="Groups"
     Language="C#"
     MasterPageFile="~/KCWebMgr.Master"
     AutoEventWireup="true"
@@ -64,7 +64,7 @@
                     selected_tab = jq("#tabs").tabs("option", "active");
                 });
             });
-            jq("#tabs").width(780);
+            jq("#tabs").css('width', '100%');
             jq("#tabs").height(450);
         }
 
@@ -82,6 +82,7 @@
 
     </script>
 </asp:Content>
+<h1>Groups</h1>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <script type="text/javascript">
@@ -227,7 +228,7 @@
                 OnItemUpdated="fvwGroup_ItemUpdated"
                 OnDataBound="fvwGroup_DataBound">
                 <EditItemTemplate>
-                    <table class="tblKCAdv groups">
+                    <table class="tblKCAdv">
                         <tr>
                             <td>
                                 <asp:Literal ID="LiteralResource1" runat="server" meta:resourcekey="LiteralResource1">Name:</asp:Literal></td>
@@ -326,7 +327,7 @@
 
                 </EditItemTemplate>
                 <InsertItemTemplate>
-                    <table class="tblKCAdv groups">
+                    <table class="tblKCAdv">
                         <tr>
                             <td>
                                 <asp:Literal ID="LiteralResource7" runat="server" meta:resourcekey="LiteralResource7">Name:</asp:Literal></td>
@@ -431,7 +432,7 @@
 
                 </InsertItemTemplate>
                 <ItemTemplate>
-                    <table class="tblKCAdv groups">
+                    <table class="tblKCAdv">
                         <tr>
                             <td>
                                 <asp:Literal ID="LiteralResource13" runat="server" meta:resourcekey="LiteralResource13">Name:</asp:Literal></td>

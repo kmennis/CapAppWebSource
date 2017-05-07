@@ -997,7 +997,7 @@ margin:auto;
 	display:none;
 }
 .sync tr td:nth-child(1):before{
-		content: "";
+		content: "Enabled";
         font-weight: bold;
         left: 10px;
         position: absolute;
@@ -1101,7 +1101,7 @@ margin:auto;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
 }
-.groups td{
+.groups.Grid td{
 	border:none;
 	position:relative;
 	text-align:right;
