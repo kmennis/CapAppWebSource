@@ -1335,6 +1335,58 @@ margin:auto;
 }
 }
 
+/* ConfigReportSchedule Page */
+@media only screen and (max-width: 767px){
+
+.configReports th, .configReports td{
+	width:100%;
+	display:block;
+}
+.configReports tr:first-child{
+	display:none;
+}
+.configReports tr td:nth-child(1):before{
+		content: "Name";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.configReports tr td:nth-child(2):before{
+		content: "Enabled";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.configReports tr td:nth-child(3):before{
+		content: "Report View";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.configReports.Grid td{
+	border:none;
+	position:relative;
+	text-align:right;
+}
+.configReports tr{
+	border: solid 1px #c1c1c1;
+	display:block;
+	padding:5px 10px;
+}
+.configReports tr:nth-child(even){
+	background:#f6f6f6;
+}
+}
+
 @media only screen and (max-width: 767px){
 .ui-tabs .ui-tabs-nav li{
 	width:100%;
