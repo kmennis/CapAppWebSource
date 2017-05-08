@@ -1001,6 +1001,7 @@ margin:auto;
         font-weight: bold;
         left: 10px;
         position: absolute;
+		width: auto;
         top: 50%;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
