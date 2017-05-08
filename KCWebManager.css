@@ -1121,6 +1121,59 @@ margin:auto;
 }
 }
 
+/* KeyConductors Page */
+@media only screen and (max-width: 767px){
+
+.conductors th, .conductors td{
+	width:100%;
+	display:block;
+}
+.conductors tr:first-child{
+	display:none;
+}
+.conductors tr td:nth-child(1):before{
+		content: "Name";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.conductors tr td:nth-child(2):before{
+		content: "Description";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.conductors tr td:nth-child(3):before{
+		content: "Enabled";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.conductors.Grid td{
+	border:none;
+	position:relative;
+	text-align:right;
+}
+.conductors tr{
+	border: solid 1px #c1c1c1;
+	display:block;
+	padding:5px 10px;
+}
+.conductors tr:nth-child(even){
+	background:#f6f6f6;
+}
+}
+
+
 @media only screen and (max-width: 767px){
 .ui-tabs .ui-tabs-nav li{
 	width:100%;

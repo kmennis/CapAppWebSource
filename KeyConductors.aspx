@@ -1,4 +1,4 @@
-﻿<%@ Page Title=""
+﻿<%@ Page Title="KeyConductors"
     Language="C#"
     MasterPageFile="~/KCWebMgr.Master"
     AutoEventWireup="true"
@@ -79,7 +79,7 @@
                     selected_tab = jq("#tabs").tabs("option", "active");
                 });
             });
-            jq("#tabs").width(780);
+            jq("#tabs").css('width', '100%');
             jq("#tabs").height(450);
         }
 
@@ -266,7 +266,7 @@
                     PageSize="15"
                     OnSelectedIndexChanged="grdKeyConductors_SelectedIndexChanged"
                     OnRowDataBound="grdKeyConductors_RowDataBound"
-                    CssClass="Grid" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
+                    CssClass="Grid conductors" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
                     <Columns>
                         <asp:BoundField DataField="KCID" HeaderText="KCID" SortExpression="KCID" meta:resourcekey="BoundFieldResource0" />
                         <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" meta:resourcekey="BoundFieldResource1" />
