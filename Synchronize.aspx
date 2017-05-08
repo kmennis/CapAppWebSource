@@ -62,7 +62,7 @@
                 </HeaderTemplate>
                 <ItemTemplate>
                     <tr>
-                        <td style="width: 25px;">
+                        <td style="width: auto;">
                             <asp:HiddenField ID="hdnKeyConductor" runat="server" Value='<%# Eval("ID") %>' />
                             <asp:CheckBox ID="chkKeyConductor" runat="server" />
                         </td>
