@@ -177,7 +177,7 @@
                     <asp:BoundField DataField="Enabled" HeaderText="Enabled" SortExpression="Enabled" meta:resourcekey="BoundFieldResource1" />
                     <asp:BoundField DataField="Order" HeaderText="Order" SortExpression="Order" meta:resourcekey="BoundFieldResource2" />
                 </Columns>
-                <EmptyDataTemplate>
+                <EmptyDataTemplate CssClass="configAlerts">
                     <asp:Literal ID="LiteralResource0" runat="server" meta:resourcekey="LiteralResource0">No alerts present.</asp:Literal>
                 </EmptyDataTemplate>
                 <HeaderStyle CssClass="GridHdr"></HeaderStyle>
