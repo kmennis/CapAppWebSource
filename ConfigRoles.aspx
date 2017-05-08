@@ -1,5 +1,5 @@
 ﻿<%@ Page
-    Title=""
+    Title="ConfigRoles"
     Language="C#"
     MasterPageFile="~/KCWebMgr.Master"
     AutoEventWireup="true"
@@ -191,7 +191,7 @@
                 PageSize="15"
                 OnSelectedIndexChanged="grdRoles_SelectedIndexChanged"
                 OnRowDataBound="grdRoles_RowDataBound"
-                CssClass="Grid" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
+                CssClass="Grid configRoles" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
                 <AlternatingRowStyle CssClass="GridAlt"></AlternatingRowStyle>
                 <Columns>
                     <asp:BoundField DataField="ID" HeaderText="ID" SortExpression="ID" InsertVisible="False" ReadOnly="True" Visible="False" meta:resourcekey="BoundFieldResource0" />

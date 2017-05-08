@@ -1265,6 +1265,76 @@ margin:auto;
 }
 }
 
+/* ConfigRoles Page */
+@media only screen and (max-width: 767px){
+
+.configRoles th, .configRoles td{
+	width:100%;
+	display:block;
+}
+.configRoles tr:first-child{
+	display:none;
+}
+.configRoles tr td:nth-child(1):before{
+		content: "Name";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.configRoles tr td:nth-child(2):before{
+		content: "Permissions";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.configRoles tr td:nth-child(3):before{
+		content: "Level";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.configRoles tr td:nth-child(4):before{
+		content: "Users";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.configRoles tr td:nth-child(5):before{
+		content: "Default Role";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.configRoles.Grid td{
+	border:none;
+	position:relative;
+	text-align:right;
+}
+.configRoles tr{
+	border: solid 1px #c1c1c1;
+	display:block;
+	padding:5px 10px;
+}
+.configRoles tr:nth-child(even){
+	background:#f6f6f6;
+}
+}
+
 @media only screen and (max-width: 767px){
 .ui-tabs .ui-tabs-nav li{
 	width:100%;
