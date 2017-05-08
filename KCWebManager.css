@@ -1222,6 +1222,48 @@ margin:auto;
 }
 }
 
+/* ConfigSites Page */
+@media only screen and (max-width: 767px){
+
+.configSites th, .configSites td{
+	width:100%;
+	display:block;
+}
+.configSites tr:first-child{
+	display:none;
+}
+.configSites tr td:nth-child(1):before{
+		content: "Name";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.configSites tr td:nth-child(2):before{
+		content: "ID";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.configSites.Grid td{
+	border:none;
+	position:relative;
+	text-align:right;
+}
+.configSites tr{
+	border: solid 1px #c1c1c1;
+	display:block;
+	padding:5px 10px;
+}
+.configSites tr:nth-child(even){
+	background:#f6f6f6;
+}
+}
 
 @media only screen and (max-width: 767px){
 .ui-tabs .ui-tabs-nav li{
