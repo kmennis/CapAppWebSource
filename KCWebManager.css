@@ -1066,9 +1066,6 @@ margin:auto;
 }
 }
 
-
-
-
 /* Groups Page */
 @media only screen and (max-width: 767px){
 
@@ -1132,7 +1129,7 @@ margin:auto;
 	display:none;
 }
 .conductors tr td:nth-child(1):before{
-		content: "Name";
+		content: "KCID";
         font-weight: bold;
         left: 10px;
         position: absolute;
@@ -1141,7 +1138,7 @@ margin:auto;
         -webkit-transform: translateY(-50%);
 }
 .conductors tr td:nth-child(2):before{
-		content: "Description";
+		content: "Name";
         font-weight: bold;
         left: 10px;
         position: absolute;
@@ -1169,6 +1166,58 @@ margin:auto;
 	padding:5px 10px;
 }
 .conductors tr:nth-child(even){
+	background:#f6f6f6;
+}
+}
+
+/* ConfigAlerts Page */
+@media only screen and (max-width: 767px){
+
+.configAlerts th, .configAlerts td{
+	width:100%;
+	display:block;
+}
+.configAlerts tr:first-child{
+	display:none;
+}
+.configAlerts tr td:nth-child(1):before{
+		content: "Name";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.configAlerts tr td:nth-child(2):before{
+		content: "Enabled";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.configAlerts tr td:nth-child(3):before{
+		content: "Order";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.configAlerts.Grid td{
+	border:none;
+	position:relative;
+	text-align:right;
+}
+.configAlerts tr{
+	border: solid 1px #c1c1c1;
+	display:block;
+	padding:5px 10px;
+}
+.configAlerts tr:nth-child(even){
 	background:#f6f6f6;
 }
 }

@@ -1,5 +1,5 @@
 ﻿<%@ Page
-    Title=""
+    Title="ConfigAlerts"
     Language="C#"
     MasterPageFile="~/KCWebMgr.Master"
     AutoEventWireup="true"
@@ -66,7 +66,7 @@
                     selected_tab = jq("#tabs").tabs("option", "active");
                 });
             });
-            jq("#tabs").width(780);
+            jq("#tabs").css('width', '100%');
             jq("#tabs").height(450);
         }
 
@@ -170,7 +170,7 @@
                 AutoGenerateColumns="False" DataKeyNames="ID" DataSourceID="dsAllAlerts"
                 PageSize="15" OnSelectedIndexChanged="grdAlerts_SelectedIndexChanged"
                 OnRowDataBound="grdAlerts_RowDataBound"
-                CssClass="Grid" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
+                CssClass="Grid configAlerts" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
                 <AlternatingRowStyle CssClass="GridAlt"></AlternatingRowStyle>
                 <Columns>
                     <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" meta:resourcekey="BoundFieldResource0" />
