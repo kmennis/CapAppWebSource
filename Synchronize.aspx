@@ -49,7 +49,7 @@
                 <HeaderTemplate>
                     <table class="tblKCAdv sync">
                         <tr style="font-weight: bold;">
-                            <td style="width: 25px;">&nbsp;</td>
+                            <td style="width: auto;">&nbsp;</td>
                             <td>
                                 <asp:Literal ID="LiteralResource0" runat="server" meta:resourcekey="LiteralResource0">KCID</asp:Literal></td>
                             <td>
