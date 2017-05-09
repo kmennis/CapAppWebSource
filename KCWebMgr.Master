@@ -46,6 +46,23 @@
         var jq = jQuery.noConflict();
         var PageCulture = 'en-US';
         jq(document).ready(function () {
+			var oldSize = jQuery(window).width();
+			var responsiveBreakPoint = 1000;
+			var menuWrapper = jQuery('#divWrapper');
+			jQuery(window).resize(function () {
+
+			var winWidth = jQuery(window).width();
+			if (winWidth >= responsiveBreakPoint ) {
+				oldSize = winWidth;
+				if(menuWrapper.hasClass('active')){
+					menuWrapper.removeClass('active');
+					jQuery('html').css('overflow','auto');
+				}
+			}
+			});
+		
+		
+		
             PageCulture = jq('#ddlLang').val();
 	    jQuery('#menu-button').click(function(){
 			

@@ -221,7 +221,7 @@
             <asp:FormView ID="fvwGroup" runat="server"
                 DataSourceID="dsSingleGroup"
                 DataKeyNames="ID"
-                Width="624px"
+                Width="100%"
                 OnItemDeleted="fvwGroup_ItemDeleted"
                 OnItemUpdating="fvwGroup_ItemUpdating"
                 OnItemUpdated="fvwGroup_ItemUpdated"
