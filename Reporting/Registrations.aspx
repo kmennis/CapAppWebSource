@@ -120,7 +120,7 @@
             <asp:Panel ID="pnlParameters" runat="server">
 
                 <asp:Panel ID="pnlDateRange" runat="server">
-                    <table class="tblParameters">
+                    <table class="tblParameters RegParameters">
                         <tr>
                             <td><asp:Literal ID="LiteralResource0" runat="server" meta:resourcekey="LiteralResource0">Date range:</asp:Literal>
                             </td>
@@ -158,15 +158,14 @@
                                     DataTextField="Name"
                                     DataValueField="ID"
                                     AppendDataBoundItems="true"
-                                    AutoPostBack="true"
-                                    Width="164px">
+                                    AutoPostBack="true">
                                     <asp:ListItem Value="-1" Text="All" meta:resourcekey="ListItemResource4"/>
                                 </asp:DropDownList>
                             </td>
                             <td><asp:Literal ID="LiteralResource4" runat="server" meta:resourcekey="LiteralResource4">KeyCops:</asp:Literal>
                             </td>
                             <td>
-                                <asp:Button ID="btnEditKeyCopList" Text="Edit..." runat="server" Width="100%" OnClick="btnEditKeyCopList_Click"/>
+                                <asp:Button ID="btnEditKeyCopList" Text="Edit..." runat="server" OnClick="btnEditKeyCopList_Click"/>
                                 <asp:Button ID="btnEditKeyCopList2" Text="Placeholder" runat="server" CssClass="Hidden" />
                             </td>
                             <td>
@@ -180,7 +179,7 @@
                             <td><asp:Literal ID="LiteralResource5" runat="server" meta:resourcekey="LiteralResource5">Users:</asp:Literal>
                             </td>
                             <td>
-                                <asp:Button ID="btnEditUserList" Text="Edit..." runat="server" Width="100%" OnClick="btnEditUserList_Click" />
+                                <asp:Button ID="btnEditUserList" Text="Edit..." runat="server" OnClick="btnEditUserList_Click" />
                                 <asp:Button ID="btnEditUserList2" Text="Placeholder" runat="server" CssClass="Hidden" />
                             </td>
                             <td>
@@ -236,7 +235,7 @@
             <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False"
                 DataSourceID="dsKeyCopRegistrations" PageSize="15"
                 OnRowDataBound="GridView1_RowDataBound"
-                CssClass="Grid NoPointer" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
+                CssClass="Grid NoPointer RegTable" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
 
                 <Columns>
                     <asp:BoundField DataField="DateTime" HeaderText="DateTime" SortExpression="DateTime" meta:resourcekey="BoundFieldResource0" />

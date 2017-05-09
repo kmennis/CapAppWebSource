@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/KCWebMgr.Master" AutoEventWireup="true" CodeBehind="CurrentRegistrations.aspx.cs" Inherits="KCWebManager.Reporting.Report_CurrentRegistrations" %>
+﻿<%@ Page Title="Test" Language="C#" MasterPageFile="~/KCWebMgr.Master" AutoEventWireup="true" CodeBehind="CurrentRegistrations.aspx.cs" Inherits="KCWebManager.Reporting.Report_CurrentRegistrations" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -139,7 +139,7 @@
             <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False"
                 DataSourceID="dsCurRegistrations" PageSize="15"
                 OnRowDataBound="GridView1_RowDataBound"
-                CssClass="Grid NoPointer" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
+                CssClass="Grid NoPointer CurRegTable" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
                 <Columns>
                     <asp:BoundField DataField="DateTime" HeaderText="DateTime" SortExpression="DateTime" meta:resourcekey="BoundFieldResource0" />
                     <asp:BoundField DataField="KCEventType" HeaderText="Event" SortExpression="KCEventType" meta:resourcekey="BoundFieldResource1" />
