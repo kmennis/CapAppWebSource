@@ -278,6 +278,7 @@
 
             <asp:FormView ID="fvwKeyConductor" runat="server"
                 DataKeyNames="ID"
+				Width="100%"
                 DataSourceID="dsSingleKeyConductor"
                 OnItemDeleted="fvwKeyConductor_ItemDeleted"
                 OnItemUpdating="fvwKeyConductor_ItemUpdating"

@@ -376,7 +376,8 @@ margin:auto;
     background-color: white;
     border: 3px solid gray;
     padding: 3px;
-    width: 400px;
+    width: 85%;
+	max-width:100%;
     overflow: auto;
 }
 
@@ -1686,4 +1687,17 @@ margin:auto;
 	height:auto !important;
 }
 
+}
+/** Status page **/
+@media only screen and (max-width: 1000px){
+.SingleRow td:first-child{
+	display:block;
+	width:100%;
+}
+.SingleRow .SingleSlot{
+	width:67px;
+}
+.SingleSlotLabel, .SingleSlotDesc{
+	max-width:67px;
+}
 }
