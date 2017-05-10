@@ -1694,6 +1694,9 @@ margin:auto;
 	display:block;
 	width:100%;
 }
+.SingleRow td{
+	display:inline-block;
+}
 .SingleRow .SingleSlot{
 	width:67px;
 }

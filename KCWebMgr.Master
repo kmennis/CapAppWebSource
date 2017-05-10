@@ -67,10 +67,12 @@
 	    jQuery('#menu-button').click(function(){
 			
 		jQuery('#divWrapper').addClass('active');
+		jQuery('html').css('overflow','hidden');
 		});
 	jQuery('#menu-close').click(function(){
 		
 		jQuery('#divWrapper').removeClass('active');
+		jQuery('html').css('overflow','auto');
 		});
             //BindMenuClickers();
         });
