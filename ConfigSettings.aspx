@@ -78,7 +78,7 @@
                     AutoGenerateColumns="False" DataKeyNames="ID" DataSourceID="dsAllSettings"
                     PageSize="15" OnSelectedIndexChanged="grdSettings_SelectedIndexChanged"
                     OnRowDataBound="grdSettings_RowDataBound"
-                    CssClass="Grid" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
+                    CssClass="Grid settings" AlternatingRowStyle-CssClass="GridAlt" PagerStyle-CssClass="GridPgr" HeaderStyle-CssClass="GridHdr">
                     <Columns>
                         <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" meta:resourcekey="BoundFieldResource0" />
                         <asp:BoundField DataField="Value" HeaderText="Value" SortExpression="Value" meta:resourcekey="BoundFieldResource2" />

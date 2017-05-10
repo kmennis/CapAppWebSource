@@ -1687,6 +1687,20 @@ margin:auto;
 	height:auto !important;
 }
 
+
+
+}
+
+/** Filters **/
+@media only screen and (max-width: 767px){
+
+.tblFilter td{
+display: inline-block;
+width: 100% !important;
+text-align: left !important;
+margin-bottom: 10px;
+
+}
 }
 /** Status page **/
 @media only screen and (max-width: 1000px){
@@ -1703,4 +1717,46 @@ margin:auto;
 .SingleSlotLabel, .SingleSlotDesc{
 	max-width:67px;
 }
+}
+
+@media only screen and (max-width: 767px){
+
+.settings th, .settings td{
+	width:100%;
+	display:block;
+}
+.settings tr:first-child{
+	display:none;
+}
+.settings tr td:nth-child(1):before{
+		content: "Name";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+.settings tr td:nth-child(2):before{
+		content: "Value";
+        font-weight: bold;
+        left: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+}
+
+.settings.Grid td{
+	border:none;
+	position:relative;
+	text-align:right;
+}
+.settings tr{
+	border: solid 1px #c1c1c1;
+	display:block;
+	padding:5px 10px;
+}
+.settings tr:nth-child(even){
+	background:#f6f6f6;
 }
